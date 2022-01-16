@@ -13,7 +13,7 @@ name                     : &name "Mauricio Girardi-Schappo"
 description              : &description "Working on the navigation and localization system in the hippocampus, figuring out the role of adaptation in memory"
 url                      : https://mgirardischappo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mgirardis/mgirardischappo.github.io"
+repository               : "mgirardis/mgirardis.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
@@ -85,7 +85,7 @@ author:
   bio              : "I believe that modeling and theory should guide neuroscience: experimentation is fundamental for both guiding new models development and helping to choose which models are reliable and may describe nature and which are just theoretical possibilities; on the other hand, modeling is an art of reducing a problem to tackle the fundamental principles thay may cause the observed phenomena. Thus, my interest lies in doing research in the interface between model and experiments."
   location         : "Ottawa, ON, Canada"
   employer         : "University of Ottawa"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=girardi-schappo"
   googlescholar    : "https://scholar.google.com/citations?user=RI94ud8AAAAJ&hl=en"
   email            : "girardi.s@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Mauricio-Girardi-Schappo"
