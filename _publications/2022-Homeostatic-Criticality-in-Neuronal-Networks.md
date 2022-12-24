@@ -1,0 +1,10 @@
+---
+title: "Homeostatic Criticality in Neuronal Networks"
+collection: publications
+permalink: /publication/2022-Homeostatic-Criticality-in-Neuronal-Networks
+date: 2022
+venue: 'Chaos Solitons Fractals'
+paperurl: 'https://dx.doi.org/10.1016/j.chaos.2022.111877'
+citation: ' Gustavo Menesse,  B&apos;oris Marin,  <u>Mauricio Girardi-Schappo</u>,  Osame Kinouchi, &quot;Homeostatic Criticality in Neuronal Networks.&quot; Chaos Solitons Fractals, 2022.'
+---
+[Access paper here](https://dx.doi.org/10.1016/j.chaos.2022.111877){:target="_blank"}
