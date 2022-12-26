@@ -1,5 +1,11 @@
 # main links links
 main:
+  - title: "People"
+    url: /people/    
+
+  - title: "Research highlights"
+    url: /year-archive/
+
   - title: "Publications"
     url: /publications/
 
@@ -9,14 +15,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+#  - title: "Portfolio"
+#    url: /portfolio/
     
-  - title: "CV"
-    url: /cv/
+#  - title: "CV"
+#    url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+#  - title: "Guide"
+#    url: /markdown/
