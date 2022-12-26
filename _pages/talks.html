@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Science Communication and Outreach"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
@@ -10,7 +10,17 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
 {% endif %}
+<h3>Interviews and Science Outreach</h3>
+{% for post in site.talks_outreach reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
 
-{% for post in site.talks reversed %}
+<h3>Invited talks</h3>
+{% for post in site.talks_invited reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<h3>Conference Presentations</h3>
+{% for post in site.talks_conference reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
