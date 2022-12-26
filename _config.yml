@@ -190,15 +190,15 @@ collections:
 #    permalink: /:collection/:path/
 #    sort_by: year
   talks_outreach:
-    output: false
+    output: true
     permalink: /:collection/:path/
     sort_by: year
   talks_invited:
-    output: false
+    output: true
     permalink: /:collection/:path/
     sort_by: year
   talks_conference:
-    output: false
+    output: true
     permalink: /:collection/:path/
     sort_by: year
 
