@@ -1,8 +1,8 @@
 ---
 header:
-  image: /images/banner_linkedin.png
+  image: banner_linkedin.png
   image_description: brain network
-  teaser: /images/banner_linkedin.png
+  teaser: banner_linkedin.png
 layout: splash
 permalink: /
 title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
