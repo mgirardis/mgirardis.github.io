@@ -7,4 +7,3 @@ venue: 'Phys. Life Rev.'
 paperurl: 'https://dx.doi.org/10.1016/j.plrev.2020.03.001'
 citation: ' <u>Mauricio Girardi-Schappo</u>,  Ariadne Andrade, &quot;Hints from statistical physics and graph theory to build synthetic connectomes: Comment on ``What would a synthetic connectome look like?&amp;apos;&amp;apos; by I. Rabinowitch.&quot; Phys. Life Rev., 2020.'
 ---
-[Access paper here](https://dx.doi.org/10.1016/j.plrev.2020.03.001){:target="_blank"}

@@ -7,4 +7,3 @@ venue: 'Armadilhas camufladas de ciência: mitos e pseudociências em nossas vid
 paperurl: 'https://www.professormarcelogs.com/armadilhas-camufladas-de-ciencia'
 citation: ' Marcelo Schappo,  <u>Mauricio Girardi-Schappo</u>, &quot;Um plano para arredondar a Terra.&quot; Armadilhas camufladas de ciência: mitos e pseudociências em nossas vidas, Editora Autografia, 2021.'
 ---
-[Access book here](https://www.professormarcelogs.com/armadilhas-camufladas-de-ciencia){:target="_blank"}
