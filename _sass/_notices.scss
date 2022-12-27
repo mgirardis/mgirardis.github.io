@@ -45,9 +45,11 @@
 
   a {
     color: $notice-color;
+    text-decoration: none;
 
     &:hover {
       color: mix(#000, $notice-color, 40%);
+      text-decoration: underline;
     }
   }
 
