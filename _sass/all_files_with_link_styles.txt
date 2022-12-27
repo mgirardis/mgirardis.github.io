@@ -1,0 +1,215 @@
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shims.scss
+
+IgnoreCase LineNumber Line                                           Filename    Path
+---------- ---------- ----                                           --------    ----                                                                    
+      True        928 .#{$fa-css-prefix}.#{$fa-css-prefix}-joomla {  _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1110 .#{$fa-css-prefix}.#{$fa-css-prefix}-ra {      _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1248 .#{$fa-css-prefix}.#{$fa-css-prefix}-cc-visa { _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1613 .#{$fa-css-prefix}.#{$fa-css-prefix}-opera {   _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1783 .#{$fa-css-prefix}.#{$fa-css-prefix}-envira {  _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1882 .#{$fa-css-prefix}.#{$fa-css-prefix}-fa {      _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+      True       1956 .#{$fa-css-prefix}.#{$fa-css-prefix}-quora {   _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\font-awesome\_shi…
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss
+
+IgnoreCase LineNumber Line         Filename             Path                                                                                      Pattern
+---------- ---------- ----         --------             ----                                                                                      -------
+      True        230   a {        _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss a {    
+      True        363     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss a {    
+      True        377     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss a {    
+      True        397     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss a {    
+      True        411     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magnific-popup.scss a {    
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susy\_breakpoint-plugin.scss
+
+IgnoreCase LineNumber Line                         Filename                Path
+---------- ---------- ----                         --------                ----                                                                          
+      True        147     @if $property == media { _breakpoint-plugin.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susy…
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susy\_rows.scss
+
+IgnoreCase LineNumber Line                                     Filename   Path
+---------- ---------- ----                                     --------   ----                                                                           
+      True        110   @if $edge == alpha or $edge == omega { _rows.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susy\…
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susyone\_functions.scss
+
+IgnoreCase LineNumber Line                   Filename        Path
+---------- ---------- ----                   --------        ----                                                                                        
+      True        299           @if $media { _functions.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\language\susyone\_functions…
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss
+
+IgnoreCase LineNumber Line            Filename      Path                                                         Pattern Context Matches
+---------- ---------- ----            --------      ----                                                         ------- ------- -------
+      True         17   a {           _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {0}
+      True         46   a + a {       _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {0}
+      True        105   .page__meta { _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {0}
+      True        118   .page__meta { _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss
+
+IgnoreCase LineNumber Line    Filename   Path                                                      Pattern Context Matches
+---------- ---------- ----    --------   ----                                                      ------- ------- -------
+      True         68   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+      True         73 del a { _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+      True        114 a {     _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+      True        208   > a { _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+      True        247   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+      True        296   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss
+
+IgnoreCase LineNumber Line    Filename     Path                                                        Pattern Context Matches
+---------- ---------- ----    --------     ----                                                        ------- ------- -------
+      True         39   a {   _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}
+      True         82   a {   _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}
+      True         88     a { _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss
+
+IgnoreCase LineNumber Line       Filename    Path                                                       Pattern Context Matches
+---------- ---------- ----       --------    ----                                                       ------- ------- -------
+      True         45 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}
+      True         53 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}
+      True        162 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_masthead.scss
+
+IgnoreCase LineNumber Line    Filename       Path                                                          Pattern Context Matches
+---------- ---------- ----    --------       ----                                                          ------- ------- -------
+      True         28     a { _masthead.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_masthead.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss
+
+IgnoreCase LineNumber Line             Filename         Path                                                            Pattern Context Matches
+---------- ---------- ----             --------         ----                                                            ------- ------- -------
+      True         77     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        109       a {        _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        116       a {        _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        180   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        214         a {      _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        220         a {      _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        226     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        263     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        323   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        398   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        416     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+      True        421   li ul > li a { _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_notices.scss
+
+IgnoreCase LineNumber Line  Filename      Path                                                         Pattern Context Matches
+---------- ---------- ----  --------      ----                                                         ------- ------- -------
+      True         46   a { _notices.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_notices.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss
+
+IgnoreCase LineNumber Line                Filename   Path                                                      Pattern Context Matches
+---------- ---------- ----                --------   ----                                                      ------- ------- -------
+      True         41   & + .page__meta { _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True         75   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        128     a {             _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        193   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        237 .page__meta {       _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        247   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        375   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        387   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+      True        411   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss
+
+IgnoreCase LineNumber Line       Filename    Path                                                       Pattern Context Matches
+---------- ---------- ----       --------    ----                                                       ------- ------- -------
+      True         69 a {        _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}
+      True        129 textarea { _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}
+      True        176 textarea { _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_sidebar.scss
+
+IgnoreCase LineNumber Line    Filename      Path                                                         Pattern Context Matches
+---------- ---------- ----    --------      ----                                                         ------- ------- -------
+      True        143     a { _sidebar.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_sidebar.scss a {             {0}
+      True        223   a {   _sidebar.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_sidebar.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_syntax.scss
+
+IgnoreCase LineNumber Line                                                   Filename     Path                                                        Pat
+                                                                                                                                                      ter
+                                                                                                                                                      n
+---------- ---------- ----                                                   --------     ----                                                        ---
+      True         88 .highlight .na { color: #586e75 } /* Name.Attribute */ _syntax.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_syntax.scss a {
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_utilities.scss
+
+IgnoreCase LineNumber Line    Filename        Path                                                           Pattern Context Matches
+---------- ---------- ----    --------        ----                                                           ------- ------- -------
+      True        185   .fa { _utilities.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_utilities.scss a {             {0}
+
+   Path: D:\Dropbox\p\sites\pagina_pessoal_github\_sass\all_files_with_link_styles.txt
+
+IgnoreCase LineNumber Line
+---------- ---------- ----                                                                                                                               
+      True          6       True        928 .#{$fa-css-prefix}.#{$fa-css-prefix}-joomla {  _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True          7       True       1110 .#{$fa-css-prefix}.#{$fa-css-prefix}-ra {      _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True          8       True       1248 .#{$fa-css-prefix}.#{$fa-css-prefix}-cc-visa { _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True          9       True       1613 .#{$fa-css-prefix}.#{$fa-css-prefix}-opera {   _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True         10       True       1783 .#{$fa-css-prefix}.#{$fa-css-prefix}-envira {  _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True         11       True       1882 .#{$fa-css-prefix}.#{$fa-css-prefix}-fa {      _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True         12       True       1956 .#{$fa-css-prefix}.#{$fa-css-prefix}-quora {   _shims.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\ve…
+      True         18       True        230   a {        _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magn…
+      True         19       True        363     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magn…
+      True         20       True        377     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magn…
+      True         21       True        397     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magn…
+      True         22       True        411     .mfp-a { _magnific-popup.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\magnific-popup\_magn…
+      True         28       True        147     @if $property == media { _breakpoint-plugin.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\s…
+      True         34       True        110   @if $edge == alpha or $edge == omega { _rows.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\su…
+      True         40       True        299           @if $media { _functions.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\vendor\susy\susy\langu…
+      True         46       True         17   a {           _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {…
+      True         47       True         46   a + a {       _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {…
+      True         48       True        105   .page__meta { _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {…
+      True         49       True        118   .page__meta { _archive.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_archive.scss a {             {…
+      True         55       True         68   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         56       True         73 del a { _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         57       True        114 a {     _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         58       True        208   > a { _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         59       True        247   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         60       True        296   a {   _base.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_base.scss a {             {0}             
+      True         66       True         39   a {   _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}         
+      True         67       True         82   a {   _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}         
+      True         68       True         88     a { _footer.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_footer.scss a {             {0}         
+      True         74       True         45 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}        
+      True         75       True         53 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}        
+      True         76       True        162 textarea { _forms.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_forms.scss a {             {0}        
+      True         82       True         28     a { _masthead.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_masthead.scss a {             {0}     
+      True         88       True         77     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         89       True        109       a {        _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         90       True        116       a {        _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         91       True        180   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         92       True        214         a {      _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         93       True        220         a {      _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         94       True        226     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         95       True        263     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         96       True        323   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         97       True        398   a {            _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         98       True        416     a {          _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True         99       True        421   li ul > li a { _navigation.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_navigation.scss a {       …
+      True        105       True         46   a { _notices.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_notices.scss a {             {0}         
+      True        111       True         41   & + .page__meta { _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        112       True         75   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        113       True        128     a {             _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        114       True        193   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        115       True        237 .page__meta {       _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        116       True        247   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        117       True        375   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        118       True        387   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        119       True        411   a {               _page.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_page.scss a {             {0} 
+      True        125       True         69 a {        _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}        
+      True        126       True        129 textarea { _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}        
+      True        127       True        176 textarea { _reset.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_reset.scss a {             {0}        
+      True        133       True        143     a { _sidebar.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_sidebar.scss a {             {0}       
+      True        134       True        223   a {   _sidebar.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_sidebar.scss a {             {0}       
+      True        142       True         88 .highlight .na { color: #586e75 } /* Name.Attribute */ _syntax.scss D:\Dropbox\p\sites\pagina_pessoal_github…
+      True        148       True        185   .fa { _utilities.scss D:\Dropbox\p\sites\pagina_pessoal_github\_sass\_utilities.scss a {             {0}   
+
