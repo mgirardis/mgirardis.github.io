@@ -4,7 +4,7 @@ main:
     url: /people/    
 
   - title: "Research highlights"
-    url: /posts/
+    url: /highlights/
 
   - title: "Publications"
     url: /publications/
