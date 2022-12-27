@@ -1,6 +1,6 @@
 ---
 header:
-  image: images/banner_linkedin.png
+  image: /images/banner_linkedin.png
   image_description: brain network
 layout: splash
 permalink: /
