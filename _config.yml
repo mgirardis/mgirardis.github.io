@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Mauricio Girardi-Schappo"
+title                    : "NeuroPhysics lab"
 title_separator          : "-"
 name                     : &name "Mauricio Girardi-Schappo"
 description              : &description "Working on the navigation and localization system in the hippocampus, figuring out the role of adaptation in memory"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mauricio Girardi-Schappo"
+  name             : "Mauricio Girardi-Schappo (PI)"
   avatar           : "profile.png"
-  bio              : "I believe that modeling and theory should guide neuroscience: experimentation is fundamental for both guiding new models development and helping to choose which models are reliable and may describe nature and which are just theoretical possibilities; on the other hand, modeling is an art of reducing a problem to tackle the fundamental principles thay may cause the observed phenomena. Thus, my interest lies in doing research in the interface between model and experiments."
+  bio              : "Working in the frontier between Physics and Neuroscience"
   location         : "Florianopolis, SC, Brazil"
   employer         : "Universidade Federal<br />de Santa Catarina (UFSC)"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=girardi-schappo"
@@ -102,11 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/mauricio-girardi-schappo/"
-  orcid            : "https://orcid.org/0000-0002-9111-4905"
+  linkedin         : #"https://www.linkedin.com/in/mauricio-girardi-schappo/"
+  orcid            : #"https://orcid.org/0000-0002-9111-4905"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/488229/girardi"
+  stackoverflow    : #"https://stackoverflow.com/users/488229/girardi"
   steam            :
   tumblr           :
   twitter          : 
@@ -157,7 +157,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "\n"
 incremental: false
 
 
@@ -204,7 +204,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "highlights"
       type: posts
     values:
       layout: single
@@ -238,16 +238,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks_outreach
+  # _talks
   - scope:
       path: "talks"
       type: 
@@ -266,7 +257,7 @@ defaults:
   # _talks_invited
   - scope:
       path: ""
-      type: talks_outreach
+      type: talks_invited
     values:
       layout: talk
       author_profile: true
