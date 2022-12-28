@@ -1,12 +1,12 @@
 ---
 header:
-  image: banner_linkedin.png
+  image: splash_screen.png
   image_description: brain network
-  teaser: banner_linkedin.png
+  teaser: splash_screen.png
 layout: splash
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "NeuroPhysics Lab: developing data-driven complex systems' theories"
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
