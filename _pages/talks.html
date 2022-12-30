@@ -11,19 +11,19 @@ author_profile: true
 
 {% endif %}
 <h2>Interviews and Science Outreach</h2>
-{% assign filtered_posts = site.talks | where: 'collection', 'talks_outreach' %}
+{% assign filtered_posts = site.talks | where: 'type', 'Community outreach and interviews' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
 <h2>Invited Talks</h2>
-{% assign filtered_posts = site.talks | where: 'collection', 'talks_invited' %}
+{% assign filtered_posts = site.talks | where: 'type', 'Invited talks' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
 <h2>Latest Conference Presentations</h2>
-{% assign filtered_posts = site.talks | where: 'collection', 'talks_conference' %}
+{% assign filtered_posts = site.talks | where: 'type', 'Conference presentations' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
