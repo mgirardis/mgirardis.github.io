@@ -13,7 +13,7 @@ author_profile: true
 
 <h2>Peer-reviewed papers</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: year %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'paper' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-publications.html %}
 {% endfor %}
@@ -21,7 +21,7 @@ author_profile: true
 
 <h2>Books</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: year %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'book' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-publications.html %}
 {% endfor %}
@@ -29,7 +29,7 @@ author_profile: true
 
 <h2>Proceedings</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: year %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-publications.html %}
 {% endfor %}
@@ -37,7 +37,7 @@ author_profile: true
 
 <h2>Theses</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: year %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' %}
 {% for post in filtered_posts reversed %}
   {% include archive-single-publications.html %}
 {% endfor %}
