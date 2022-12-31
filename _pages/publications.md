@@ -13,8 +13,8 @@ author_profile: true
 
 <h2>Peer-reviewed papers</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' | reversed %}
-{% for pubs_by_year in filtered_posts %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' %}
+{% for pubs_by_year in filtered_posts reversed %}
   <h3>{{ pubs_by_year.name }}</h3>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -24,8 +24,8 @@ author_profile: true
 
 <h2>Books</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' | reversed %}
-{% for pubs_by_year in filtered_posts %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' %}
+{% for pubs_by_year in filtered_posts reversed %}
   <h3>{{ pubs_by_year.name }}</h3>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -35,8 +35,8 @@ author_profile: true
 
 <h2>Proceedings</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' | reversed %}
-{% for pubs_by_year in filtered_posts %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' %}
+{% for pubs_by_year in filtered_posts reversed %}
   <h3>{{ pubs_by_year.name }}</h3>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -46,8 +46,8 @@ author_profile: true
 
 <h2>Theses</h2>
 <ol reversed>
-{% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: 'year' | reversed %}
-{% for pubs_by_year in filtered_posts %}
+{% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: 'year' %}
+{% for pubs_by_year in filtered_posts reversed %}
   <h3>{{ pubs_by_year.name }}</h3>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
