@@ -16,25 +16,24 @@
   <li>
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <h3 class="archive__item-title" itemprop="headline">
+    <h4 class="archive__item-title">
         {{ post.name }}
-        {{ post.title }}
         {% if post.title and post.title != '' %}
             <span>({{ post.title }})</span>
         {% endif %}
-    </h3>
+    </h4>
     <p style="font-size: 10pt;">
         {% if post.level and post.level != '' %}
             <span>{{ post.level }} -- </span>
         {% endif %}
         <b>{{ post.university }}</b>, <i>{{ post.location }}.</i>
         {% if post.yearsactive_from or post.yearsactive_to %}
-        <br />
+            <br />
             {% if post.yearsactive_from and post.yearsactive_from != '' %}
-                <b>Started: {{ post.yearsactive_from }}</b>
+                Started: <b>{{ post.yearsactive_from }}.</b>
             {% endif %}
             {% if post.yearsactive_to and post.yearsactive_to != '' %}
-                <b>Ended: {{ post.yearsactive_to }}</b>
+                Ended: <b>{{ post.yearsactive_to }}.</b>
             {% endif %}
         {% endif %}
     </p>
