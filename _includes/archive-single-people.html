@@ -1,0 +1,40 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <li>
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <h3 class="archive__item-title" itemprop="headline">
+        {{ post.name }}
+        {{ post.title }}
+        {% if post.title and post.title != '' %}
+            <span>({{ post.title }})</span>
+        {% endif %}
+    </h3>
+    <p style="font-size: 10pt;">
+        {% if post.level and post.level != '' %}
+            <span>( {{ post.level }} )</span>
+        {% endif %}
+        <i>{{ post.university }}, {{ post.location }}.</i>
+        {% if post.yearsactive_from and post.yearsactive_from != '' %}
+            <b>Started: {{ post.yearsactive_from }}</b>
+        {% endif %}
+        {% if post.yearsactive_to and post.yearsactive_to != '' %}
+            <b>Ended: {{ post.yearsactive_to }}</b>
+        {% endif %}
+    </p>
+  </article>
+  </li>
+</div>

@@ -128,6 +128,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - "*.code-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -189,19 +190,9 @@ collections:
     output: true
     permalink: /:collection/:path/
     sort_by: year
-#  talks_outreach:
-#    output: true
-#    permalink: /:collection/:path/
-#    sort_by: year
-#  talks_invited:
-#    output: true
-#    permalink: /:collection/:path/
-#    sort_by: year
-#  talks_conference:
-#    output: true
-#    permalink: /:collection/:path/
-#    sort_by: year
-
+  people:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -249,30 +240,19 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _talks_outreach
-  #- scope:
-  #    path: ""
-  #    type: talks_outreach
-  #  values:
-  #    layout: talk
-  #    author_profile: true
-  #    share: true
-  ## _talks_invited
-  #- scope:
-  #    path: ""
-  #    type: talks_invited
-  #  values:
-  #    layout: talk
-  #    author_profile: true
-  #    share: true
-  ## _talks_conference
-  #- scope:
-  #    path: ""
-  #    type: talks_conference
-  #  values:
-  #    layout: talk
-  #    author_profile: true
-  #    share: true
+  # _people
+  - scope:
+      path: "people"
+      type: 
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+people-order:
+  - Principal investigator
+  - Graduate student
+  - Collaborator
 
 # Sass/SCSS
 sass:
