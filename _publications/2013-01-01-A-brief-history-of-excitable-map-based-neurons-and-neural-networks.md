@@ -1,7 +1,6 @@
 ---
 title: "A brief history of excitable map-based neurons and neural networks"
 collection: publications
-permalink: /publication/2013-01-01-A-brief-history-of-excitable-map-based-neurons-and-neural-networks
 date: 2013-01-01
 year: 2013
 venue: 'J. Neurosci. Methods'

@@ -1,7 +1,6 @@
 ---
 title: "Synaptic balance due to homeostatically self-organized quasicritical dynamics"
 collection: publications
-permalink: /publication/2020-01-01-Synaptic-balance-due-to-homeostatically-self-organized-quasicritical-dynamics
 date: 2020-01-01
 year: 2020
 venue: 'Phys. Rev. Research'

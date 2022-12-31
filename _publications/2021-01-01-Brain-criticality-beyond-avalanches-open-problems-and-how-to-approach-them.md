@@ -1,7 +1,6 @@
 ---
 title: "Brain criticality beyond avalanches: open problems and how to approach them"
 collection: publications
-permalink: /publication/2021-01-01-Brain-criticality-beyond-avalanches-open-problems-and-how-to-approach-them
 date: 2021-01-01
 year: 2021
 venue: 'J. Phys. Complex.'

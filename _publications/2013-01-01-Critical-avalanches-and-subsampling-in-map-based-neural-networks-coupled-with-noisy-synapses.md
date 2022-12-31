@@ -1,7 +1,6 @@
 ---
 title: "Critical avalanches and subsampling in map-based neural networks coupled with noisy synapses"
 collection: publications
-permalink: /publication/2013-01-01-Critical-avalanches-and-subsampling-in-map-based-neural-networks-coupled-with-noisy-synapses
 date: 2013-01-01
 year: 2013
 venue: 'Phys. Rev. E'

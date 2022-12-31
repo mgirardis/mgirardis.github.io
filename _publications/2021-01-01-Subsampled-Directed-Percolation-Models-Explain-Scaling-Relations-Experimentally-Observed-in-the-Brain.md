@@ -1,7 +1,6 @@
 ---
 title: "Subsampled Directed-Percolation Models Explain Scaling Relations Experimentally Observed in the Brain"
 collection: publications
-permalink: /publication/2021-01-01-Subsampled-Directed-Percolation-Models-Explain-Scaling-Relations-Experimentally-Observed-in-the-Brain
 date: 2021-01-01
 year: 2021
 venue: 'Front. Neural Circuits'

@@ -1,7 +1,6 @@
 ---
 title: "Homeostatic Criticality in Neuronal Networks"
 collection: publications
-permalink: /publication/2022-01-01-Homeostatic-Criticality-in-Neuronal-Networks
 date: 2022-01-01
 year: 2022
 venue: 'Chaos Solitons Fractals'

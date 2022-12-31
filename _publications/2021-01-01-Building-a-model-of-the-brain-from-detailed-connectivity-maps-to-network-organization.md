@@ -1,7 +1,6 @@
 ---
 title: "Building a model of the brain: from detailed connectivity maps to network organization"
 collection: publications
-permalink: /publication/2021-01-01-Building-a-model-of-the-brain-from-detailed-connectivity-maps-to-network-organization
 date: 2021-01-01
 year: 2021
 venue: 'Eur. Phys. J. Spec. Top.'

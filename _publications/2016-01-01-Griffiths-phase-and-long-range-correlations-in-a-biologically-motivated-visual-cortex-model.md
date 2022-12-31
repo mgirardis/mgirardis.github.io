@@ -1,7 +1,6 @@
 ---
 title: "Griffiths phase and long-range correlations in a biologically motivated visual cortex model"
 collection: publications
-permalink: /publication/2016-01-01-Griffiths-phase-and-long-range-correlations-in-a-biologically-motivated-visual-cortex-model
 date: 2016-01-01
 year: 2016
 venue: 'Sci. Rep.'

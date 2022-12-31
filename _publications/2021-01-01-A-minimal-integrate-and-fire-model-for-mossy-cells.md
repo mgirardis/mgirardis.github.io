@@ -1,7 +1,6 @@
 ---
 title: "A minimal integrate-and-fire model for mossy cells"
 collection: publications
-permalink: /publication/2021-01-01-A-minimal-integrate-and-fire-model-for-mossy-cells
 date: 2021-01-01
 year: 2021
 venue: 'J. Comput. Neurosci.'

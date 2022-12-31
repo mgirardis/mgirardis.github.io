@@ -1,7 +1,6 @@
 ---
 title: "A map-based model for the membrane potential of healthy and unhealthy neurons and cardiac cells"
 collection: publications
-permalink: /publication/2019-01-01-A-map-based-model-for-the-membrane-potential-of-healthy-and-unhealthy-neurons-and-cardiac-cells
 date: 2019-01-01
 year: 2019
 venue: 'BMC Neurosci.'

@@ -1,7 +1,6 @@
 ---
 title: "Signal propagation and neuronal avalanches analysis in networks of formal neurons"
 collection: publications
-permalink: /publication/2011-01-01-Signal-propagation-and-neuronal-avalanches-analysis-in-networks-of-formal-neurons
 date: 2011-01-01
 year: 2011
 venue: 'BMC Neurosci.'

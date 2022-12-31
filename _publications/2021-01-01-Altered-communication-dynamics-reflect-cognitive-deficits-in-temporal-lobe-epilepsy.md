@@ -1,7 +1,6 @@
 ---
 title: "Altered communication dynamics reflect cognitive deficits in temporal lobe epilepsy"
 collection: publications
-permalink: /publication/2021-01-01-Altered-communication-dynamics-reflect-cognitive-deficits-in-temporal-lobe-epilepsy
 date: 2021-01-01
 year: 2021
 venue: 'Epilepsia'

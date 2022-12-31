@@ -1,7 +1,6 @@
 ---
 title: "Measuring neuronal avalanches in disordered systems with absorbing states"
 collection: publications
-permalink: /publication/2018-01-01-Measuring-neuronal-avalanches-in-disordered-systems-with-absorbing-states
 date: 2018-01-01
 year: 2018
 venue: 'Phys. Rev. E'

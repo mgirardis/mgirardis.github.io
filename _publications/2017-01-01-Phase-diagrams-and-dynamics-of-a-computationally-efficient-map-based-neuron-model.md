@@ -1,7 +1,6 @@
 ---
 title: "Phase diagrams and dynamics of a computationally efficient map-based neuron model"
 collection: publications
-permalink: /publication/2017-01-01-Phase-diagrams-and-dynamics-of-a-computationally-efficient-map-based-neuron-model
 date: 2017-01-01
 year: 2017
 venue: 'PLoS ONE'

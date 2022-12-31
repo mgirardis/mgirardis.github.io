@@ -1,7 +1,6 @@
 ---
 title: "Hints from statistical physics and graph theory to build synthetic connectomes: Comment on ``What would a synthetic connectome look like?&apos;&apos; by I. Rabinowitch"
 collection: publications
-permalink: /publication/2020-01-01-Hints-from-statistical-physics-and-graph-theory-to-build-synthetic-connectomes-Comment-on-What-would-a-synthetic-connectome-look-like-by-I-Rabinowitch
 date: 2020-01-01
 year: 2020
 venue: 'Phys. Life Rev.'

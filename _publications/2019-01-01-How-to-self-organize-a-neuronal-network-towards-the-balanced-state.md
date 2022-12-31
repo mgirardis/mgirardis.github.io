@@ -1,7 +1,6 @@
 ---
 title: "How to self-organize a neuronal network towards the balanced state?"
 collection: publications
-permalink: /publication/2019-01-01-How-to-self-organize-a-neuronal-network-towards-the-balanced-state
 date: 2019-01-01
 year: 2019
 venue: 'Bernstein Conference'

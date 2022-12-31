@@ -1,7 +1,6 @@
 ---
 title: "Dentate gyrus mossy cells exhibit sparse coding via adaptive spike threshold dynamics"
 collection: publications
-permalink: /publication/2022-01-01-Dentate-gyrus-mossy-cells-exhibit-sparse-coding-via-adaptive-spike-threshold-dynamics
 date: 2022-01-01
 year: 2022
 venue: 'bioRxiv'

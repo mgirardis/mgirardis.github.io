@@ -1,7 +1,6 @@
 ---
 title: "Comment on ``Convergence towards asymptotic state in 1-D mappings: A scaling investigation&apos;&apos;"
 collection: publications
-permalink: /publication/2019-01-01-Comment-on-Convergence-towards-asymptotic-state-in-1-D-mappings-A-scaling-investigation
 date: 2019-01-01
 year: 2019
 venue: 'Phys. Lett. A'

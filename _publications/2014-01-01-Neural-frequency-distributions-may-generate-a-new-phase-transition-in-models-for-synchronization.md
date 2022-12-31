@@ -1,7 +1,6 @@
 ---
 title: "Neural frequency distributions may generate a new phase transition in models for synchronization"
 collection: publications
-permalink: /publication/2014-01-01-Neural-frequency-distributions-may-generate-a-new-phase-transition-in-models-for-synchronization
 date: 2014-01-01
 year: 2014
 venue: 'BMC Neurosci.'

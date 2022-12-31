@@ -1,7 +1,6 @@
 ---
 title: "Power-law avalanches and all the synchronicity states emerging in a unified model of excitatory-inhibitory balanced network"
 collection: publications
-permalink: /publication/2019-01-01-Power-law-avalanches-and-all-the-synchronicity-states-emerging-in-a-unified-model-of-excitatory-inhibitory-balanced-network
 date: 2019-01-01
 year: 2019
 venue: 'Bernstein Conference'

@@ -1,7 +1,6 @@
 ---
 title: "Optimal activity, avalanches and criticality in a model of the Primary Visual Area"
 collection: publications
-permalink: /publication/2014-01-01-Optimal-activity-avalanches-and-criticality-in-a-model-of-the-Primary-Visual-Area
 date: 2014-01-01
 year: 2014
 venue: 'BMC Neurosci.'

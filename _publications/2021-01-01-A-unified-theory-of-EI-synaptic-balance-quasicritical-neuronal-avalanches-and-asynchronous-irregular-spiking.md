@@ -1,7 +1,6 @@
 ---
 title: "A unified theory of E/I synaptic balance, quasicritical neuronal avalanches and asynchronous irregular spiking"
 collection: publications
-permalink: /publication/2021-01-01-A-unified-theory-of-EI-synaptic-balance-quasicritical-neuronal-avalanches-and-asynchronous-irregular-spiking
 date: 2021-01-01
 year: 2021
 venue: 'J. Phys. Complex.'

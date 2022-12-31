@@ -1,7 +1,6 @@
 ---
 title: "A random walk approach to the diffusion of positrons in gaseous media"
 collection: publications
-permalink: /publication/2013-01-01-A-random-walk-approach-to-the-diffusion-of-positrons-in-gaseous-media
 date: 2013-01-01
 year: 2013
 venue: 'Eur. Phys. J. D'

@@ -1,7 +1,6 @@
 ---
 title: "A Simple Monte Carlo Approach to the Diffusion of Positrons in Gaseous Media"
 collection: publications
-permalink: /publication/2012-01-01-A-Simple-Monte-Carlo-Approach-to-the-Diffusion-of-Positrons-in-Gaseous-Media
 date: 2012-01-01
 year: 2012
 venue: 'Proceedings of the International Workshop on Positrons in Astrophysics (Astropositron)'
