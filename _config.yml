@@ -251,8 +251,8 @@ defaults:
 
 people-order:
   - Principal investigator
-  - Graduate student
-  - Collaborator
+  - Graduate students
+  - Collaborators
 
 # Sass/SCSS
 sass:
