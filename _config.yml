@@ -78,7 +78,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-8577Q9J8D0"
 
 
 # Site Author
@@ -88,7 +88,7 @@ author:
   bio              : "Bringing Physics insights into Neuroscience and Complex Systems"
   location         : "Florianopolis, SC, Brazil"
   employer         : "Universidade Federal<br />de Santa Catarina (UFSC)"
-  officeaddress    : "Sala 106, Departamento de Física, Universidade Federal de Santa Catarina -- Campus Universitário João David Ferreira Lima s/n, Trindade, 88040-900, Florianópolis, SC, Brazil."
+  officeaddress    : "Sala 106, Departamento de Física, Universidade Federal de Santa Catarina <br />Campus Universitário João David Ferreira Lima s/n, Trindade<br />88040-900, Florianópolis, SC, Brazil."
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=girardi-schappo"
   googlescholar    : "https://scholar.google.com/citations?user=hbSoKf0AAAAJ&hl=en"
   email            : "girardi.s@gmail.com"
@@ -106,11 +106,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/mauricio-girardi-schappo/"
+  linkedin         : "mauricio-girardi-schappo"
   orcid            : "https://orcid.org/0000-0002-9111-4905"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/488229/girardi"
+  stackoverflow    : "488229/girardi"
   steam            :
   tumblr           :
   twitter          : 
