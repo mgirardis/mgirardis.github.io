@@ -71,7 +71,7 @@
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-7;
-    text-transform: lowercase;
+    /*text-transform: uppercase;*/
   }
 
   li + li:before {
@@ -81,15 +81,12 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;
+    font-weight: normal;
   }
 
   .social-icons {
     /*a {
       white-space: nowrap;
     }*/
-    img {
-      width: 32px;
-    }
   }
 }
