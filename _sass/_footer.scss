@@ -70,8 +70,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
+    font-size: $type-size-7;
+    text-transform: lowercase;
   }
 
   li + li:before {
@@ -85,8 +85,11 @@
   }
 
   .social-icons {
-    a {
+    /*a {
       white-space: nowrap;
+    }*/
+    img {
+      width: 32px;
     }
   }
 }
