@@ -36,6 +36,9 @@
                 Ended: <b>{{ post.yearsactive_to }}.</b>
             {% endif %}
         {% endif %}
+        {% if post.project_description and post.project_description != '' %}
+            <div><span>Project: </span><span style="font-style: italic;">{{ post.project_description }}</span></div>
+        {% endif %}
     </p>
   </article>
   </li>

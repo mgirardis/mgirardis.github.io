@@ -1,7 +1,7 @@
 ---
 header:
   image: splash_screen.png
-  image_description: brain network
+  image_description: brain network splash screen
   teaser: splash_screen.png
 layout: splash
 permalink: /

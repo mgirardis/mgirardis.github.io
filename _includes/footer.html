@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<div class="page__footer-follow">
+<!--<div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -17,12 +17,36 @@
     {% if site.author.bitbucket %}
       <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
-    <!--li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li-->
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
   </ul>
-</div>
+</div>-->
 
 <div class="page__footer-copyright">
+  <div class="sidebar sticky">
+    <ul>
+      {% for s in page.sidebar %}
+        <li style="list-style-type: none; text-align: center;">
+        {% if s.image %}
+          <img src=
+          {% if s.image contains "://" %}
+            "{{ s.image }}"
+          {% else %}
+            "{{ s.image | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}" width="20px"><br />
+        {% endif %}
+        {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+        {% if s.text %}{{ s.text | markdownify }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+<div>
   <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" alt="Creative Commons license agreement"><img src="{{ base_path }}/images/CC_BY-NC-ND_icon-88x31.png" width="88" height="31" /></a>
   {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
-  <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <address>Room 106, Departamento de Física, Universidade Federal de Santa Catarina -- Campus Universitário João David Ferreira Lima s/n, Trindade, 88040-900, Florianópolis, SC, Brazil.</address>
+</div>
+<div>{{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+  <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+</div>
+</div>
