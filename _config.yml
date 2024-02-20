@@ -274,6 +274,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
   #- jekyll-sitemap
 # mimic GitHub Pages with --safe
 whitelist:
