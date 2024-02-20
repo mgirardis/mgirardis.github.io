@@ -84,13 +84,12 @@
     font-weight: normal;
   }
 
+  li > p { 
+    margin: 0;
+    padding: 0;
+  }
+
   .social-icons {
-    li > span { 
-      position: absolute;
-      top: 2em; 
-      left: 0; 
-      line-height: 110%;
-      color: #000; }
     /*a {
       white-space: nowrap;
     }*/
