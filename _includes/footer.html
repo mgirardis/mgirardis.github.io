@@ -21,26 +21,32 @@
   </ul>
 </div>-->
 
-<div class="page__footer-copyright">
-  <div class="sidebar sticky">
-    <ul>
-      {% for s in page.sidebar %}
-        <li style="list-style-type: none; text-align: center;">
-        {% if s.image %}
-          <img src=
-          {% if s.image contains "://" %}
-            "{{ s.image }}"
-          {% else %}
-            "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}" width="20px"><br />
+<div class="page__footer-follow">
+<!--<div class="sidebar sticky">-->
+  {% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% endif %}
+  <ul>
+    {% for s in page.sidebar %}
+      <li style="list-style-type: none; text-align: center;">
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
         {% endif %}
-        {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-        {% if s.text %}{{ s.text | markdownify }}{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-    </div>
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}" width="20px"><br />
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+<!--</div>--> 
+</div>
+
+<div class="page__footer-copyright">
 <div>
   <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" alt="Creative Commons license agreement"><img src="{{ base_path }}/images/CC_BY-NC-ND_icon-88x31.png" width="88" height="31" /></a>
   {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
