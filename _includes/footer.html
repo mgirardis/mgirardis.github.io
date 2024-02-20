@@ -3,7 +3,7 @@
 <div class="page__footer-follow" style="text-align: center;">
 <!--<div class="sidebar sticky">-->
   {% assign author = site.author %}
-  <ul>
+  <ul class="social-icons>
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "E-mail" }}</a></li>
       {% endif %}
@@ -33,8 +33,8 @@
 </div>
 
 <div class="page__footer-copyright">
-  <address>{{ site.author.officeaddress }}</address>
-<div>
+<address style="padding-bottom: 1em;">{{ site.author.officeaddress }}</address>
+<div style="padding-bottom: 1em;">
   <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" alt="Creative Commons license agreement"><img src="{{ base_path }}/images/CC_BY-NC-ND_icon-88x31.png" width="88" height="31" /></a>
   {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
 </div>
