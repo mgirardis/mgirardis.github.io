@@ -283,6 +283,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
+  - jekyll-toc
   - jemoji
   #- jekyll-sitemap
 
