@@ -4,4 +4,5 @@ collection: talks
 type: "Invited talks"
 venue: "V Cycle of Seminars in Chemistry, Federal Institute of Santa Catarina for Science, Technology and Education, Brazil"
 year: 2018
+location: "Jaragua do Sul, SC, Brazil"
 ---

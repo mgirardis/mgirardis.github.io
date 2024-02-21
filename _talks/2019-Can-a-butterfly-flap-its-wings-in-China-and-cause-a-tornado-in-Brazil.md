@@ -4,4 +4,5 @@ collection: talks
 type: "Invited talks"
 venue: "Pint of Science Florianopolis, Brazil"
 year: 2019
+location: "Florianopolis, SC, Brazil"
 ---

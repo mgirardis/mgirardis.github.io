@@ -4,4 +4,5 @@ collection: talks
 type: "Invited talks"
 venue: "Prof. Gustavo Deco lab, Pompeu Fabra University (online), Barcelona, Spain"
 year: 2021
+location: "online"
 ---
