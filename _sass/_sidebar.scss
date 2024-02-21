@@ -53,7 +53,8 @@
   margin-bottom: 1em;
   float: right;
   width: 100px;
-  margin-top: 100px;
+  margin-top: 60px;
+  position: fixed;
 
   @include breakpoint($large) {
     /*position: relative;*/
