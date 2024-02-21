@@ -4,7 +4,7 @@ collection: talks
 type: "Conference presentations"
 venue: "Brain Criticality Conference 2020, Online, Available in: url, https://bit.ly/2V2Gr0i"
 year: 2020
-location: "online"
+location: ""
 ---
 
 [See more here](https://bit.ly/2V2Gr0i)

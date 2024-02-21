@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Florianopolis, SC, Brazil",
-    -27.5973002,
-    -48.5496098
+    "Sao Jose, SC, Brazil",
+    -27.6157733,
+    -48.6276491
   ],
   [
     "Sao Paulo, SP, Brazil",
@@ -18,6 +18,11 @@ var addressPoints = [
     "Barcelona, Spain",
     41.3828939,
     2.1774322
+  ],
+  [
+    "Florianopolis, SC, Brazil",
+    -27.5973002,
+    -48.5496098
   ],
   [
     "Berlin, Germany",
