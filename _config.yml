@@ -276,14 +276,12 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-toc
   #- jekyll-sitemap
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
-  - jekyll-toc
   - jemoji
   #- jekyll-sitemap
 
