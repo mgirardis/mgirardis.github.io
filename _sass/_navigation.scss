@@ -372,16 +372,16 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: $darker-gray;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
-    font-size: $type-size-6;
+    color: #000;
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -393,7 +393,7 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.8rem;
+  /*font-size: 0.8rem;*/
   background: $background-color;
   font-size: $type-size-6;
   color: white;
