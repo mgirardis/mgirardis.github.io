@@ -15,6 +15,8 @@ author_profile: false
 
 <!--<h2>Peer-reviewed papers</h2>-->
 
+<div class="archive">
+
 ## Peer-reviewed papers
 
 <ol reversed>
@@ -68,3 +70,5 @@ author_profile: false
   {% endfor %}
 {% endfor %}
 </ol>
+
+</div>
