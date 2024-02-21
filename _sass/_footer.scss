@@ -71,7 +71,7 @@
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-7;
-    width: 85px;
+    width: 95px;
     /*text-transform: uppercase;*/
   }
 
@@ -85,14 +85,15 @@
     font-weight: normal;
   }
 
-  li > p { 
-    margin: 0;
-    padding-top: -1em;
-  }
-
-  /*.social-icons {
+  .social-icons {
     a {
       white-space: nowrap;
     }
-  }*/
+    p { 
+      margin-top: -5em;
+    }
+    i {
+      margin-bottom: -1em;
+    }
+  }
 }
