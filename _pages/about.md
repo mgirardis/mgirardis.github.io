@@ -11,10 +11,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-  - /home/
-  - /home.html
-  - /index/
-  - /index.html
 ---
 
 Welcome to the NeuroPhysics Lab, where we apply tools from Physics and Mathematics to model, understand and analyze data from brain recordings, behavioral experiments, and neural networks. We propose data-driven theories (_i.e.,_ inspired by empirical data), but also develop original theoretical models and predictions about these complex systems.
