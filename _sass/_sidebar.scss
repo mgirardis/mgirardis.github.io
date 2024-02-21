@@ -58,7 +58,8 @@
     /*position: relative;*/
     float: right; /*float: right;*/
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
+    margin-left: span(10 of 12);/*span(0.5 of 12);*/
+    margin-top: 150px;
     z-index: 10;
   }
 
