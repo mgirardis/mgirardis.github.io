@@ -55,6 +55,7 @@
   width: 100px;
   margin-top: 60px;
   position: fixed;
+  margin-left: 70%;/*span(0.5 of 12);*/
 
   @include breakpoint($large) {
     /*position: relative;*/
