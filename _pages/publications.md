@@ -14,6 +14,8 @@ toc_label: "Skip to"
 
 {% include base_path %}
 
+{% include toc %}
+
 <!--<h2>Peer-reviewed papers</h2>-->
 
 # Peer-reviewed papers
