@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-people
 title: "People"
 permalink: /people/
 author_profile: true
