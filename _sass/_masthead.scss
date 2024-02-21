@@ -23,6 +23,8 @@
     }
 
     nav {
+      border-radius: 10px;
+      text-align: center;
       z-index: 10;
     }
 
@@ -52,7 +54,18 @@
 
   &--lg {
     color: white;
+    text-decoration: none;
     padding-right: 2em;
     font-weight: 700;
+  }
+
+  &--lg a {
+    color: white;
+    text-decoration: none;
+  }
+
+  &--lg a :hover {
+    color: white;
+    text-decoration: none;
   }
 }
