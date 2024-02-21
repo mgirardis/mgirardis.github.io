@@ -8,13 +8,13 @@ toc_sticky: true
 toc_label: "Skip to"
 ---
 
+{% include toc %}
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
-
-{% include toc %}
 
 <!--<h2>Peer-reviewed papers</h2>-->
 
@@ -24,8 +24,7 @@ toc_label: "Skip to"
 {% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
 
-  ## test
-  <h3>{{ pubs_by_year.name }}</h3>
+  <h2>{{ pubs_by_year.name }}</h2>
 
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -41,7 +40,7 @@ toc_label: "Skip to"
 {% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
   
-  <h3>{{ pubs_by_year.name }}</h3>
+  <h2>{{ pubs_by_year.name }}</h2>
 
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -57,7 +56,7 @@ toc_label: "Skip to"
 {% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
   
-  <h3>{{ pubs_by_year.name }}</h3>
+  <h2>{{ pubs_by_year.name }}</h2>
 
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
@@ -73,7 +72,7 @@ toc_label: "Skip to"
 {% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
   
-  <h3>{{ pubs_by_year.name }}</h3>
+  <h2>{{ pubs_by_year.name }}</h2>
 
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
