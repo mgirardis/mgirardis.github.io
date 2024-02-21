@@ -7,4 +7,4 @@ year: 2020
 location: ""
 ---
 
-[See more here](https://bit.ly/2V2Gr0i)
+<a href="https://bit.ly/2V2Gr0i" target="_blank">Learn more...</a>

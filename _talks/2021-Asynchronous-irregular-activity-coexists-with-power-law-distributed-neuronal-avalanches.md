@@ -7,4 +7,4 @@ year: 2021
 location: ""
 ---
 
-[See more here](https://bit.ly/neuralcoding2021abs)
+<a href="https://bit.ly/neuralcoding2021abs" target="_blank">Learn more...</a>

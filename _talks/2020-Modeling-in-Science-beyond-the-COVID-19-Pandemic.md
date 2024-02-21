@@ -7,4 +7,4 @@ year: 2020
 location: ""
 ---
 
-[See more here](https://bit.ly/entrevistas-palestras)
+<a href="https://bit.ly/entrevistas-palestras" target="_blank">Learn more...</a>

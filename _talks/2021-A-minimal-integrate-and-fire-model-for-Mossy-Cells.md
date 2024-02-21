@@ -7,4 +7,4 @@ year: 2021
 location: ""
 ---
 
-[See more here](https://bit.ly/cns2021poster)
+<a href="https://bit.ly/cns2021poster" target="_blank">Learn more...</a>

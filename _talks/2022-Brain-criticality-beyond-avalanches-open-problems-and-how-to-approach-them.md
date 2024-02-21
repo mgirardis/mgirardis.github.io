@@ -7,4 +7,4 @@ year: 2022
 location: ""
 ---
 
-[See more here](https://bit.ly/braincrit2022poster)
+<a href="https://bit.ly/braincrit2022poster" target="_blank">Learn more...</a>

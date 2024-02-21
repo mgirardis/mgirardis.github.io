@@ -7,4 +7,4 @@ year: 2014 to 2016
 location: "Sao Jose, SC, Brazil"
 ---
 
-[See more here](https://bit.ly/extensaoIFSC)
+<a href="https://bit.ly/extensaoIFSC" target="_blank">Learn more...</a>
