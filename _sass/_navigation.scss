@@ -394,12 +394,15 @@
   width: 100%;
   list-style: none;
   font-size: 0.8rem;
+  background: $background-color;
+  font-size: $type-size-6;
+  color: white;
 
   a {
     display: block;
     padding: 0.5rem 1rem;
     color: $gray;
-    font-size: $type-size-7;
+    font-size: $type-size-6;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
@@ -408,7 +411,7 @@
     &:hover {
       color: #be6565;
       background: $dark-gray;
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
