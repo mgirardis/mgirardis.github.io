@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: false
 toc: true
 toc_sticky: true
+toc_label: "Skip to"
 ---
 
 {% include toc %}
@@ -17,12 +18,15 @@ toc_sticky: true
 
 <!--<h2>Peer-reviewed papers</h2>-->
 
-## Peer-reviewed papers
+# Peer-reviewed papers
 
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  <h3>{{ pubs_by_year.name }}</h3>
+
+  <!--<h3>{{ pubs_by_year.name }}</h3>-->
+  ## {{ pubs_by_year.name }}
+
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
@@ -31,12 +35,14 @@ toc_sticky: true
 
 <!--<h2>Books</h2>-->
 
-## Books
+# Books
 
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  <h3>{{ pubs_by_year.name }}</h3>
+  
+  ## {{ pubs_by_year.name }}
+
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
@@ -45,12 +51,14 @@ toc_sticky: true
 
 <!--<h2>Proceedings</h2>-->
 
-## Proceedings
+# Proceedings
 
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  <h3>{{ pubs_by_year.name }}</h3>
+  
+  ## {{ pubs_by_year.name }}
+
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
@@ -59,12 +67,14 @@ toc_sticky: true
 
 <!--<h2>Theses</h2>-->
 
-## Theses
+# Theses
 
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  <h3>{{ pubs_by_year.name }}</h3>
+  
+  ## {{ pubs_by_year.name }}
+  
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
