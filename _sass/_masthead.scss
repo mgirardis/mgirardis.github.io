@@ -57,15 +57,13 @@
     text-decoration: none;
     padding-right: 2em;
     font-weight: 700;
-  }
-
-  &--lg a {
+   a {
     color: white;
     text-decoration: none;
-  }
-
-  &--lg a :hover {
-    color: white;
-    text-decoration: none;
+    :hover {
+      color: white;
+      text-decoration: none;
+      }
+    }
   }
 }
