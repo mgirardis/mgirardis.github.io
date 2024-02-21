@@ -7,7 +7,7 @@ author_profile: true
 
 
 {% include base_path %}
-
+<div class="archive">
 {% assign filtered_posts = site.people | group_by: 'job' %}
 {% for jjob in site.people-order %}
 {% assign current_job = filtered_posts | where: 'name', jjob | first %}
@@ -18,3 +18,4 @@ author_profile: true
   {% endfor %}
   </ul>
 {% endfor %}
+</div>
