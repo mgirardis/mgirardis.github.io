@@ -52,18 +52,19 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  position: fixed;
 
   @include breakpoint($large) {
     /*position: relative;*/
+    position: fixed;
     float: right; /*float: right;*/
     width: $right-sidebar-width-narrow;
-    margin-left: span(6 of 12);/*span(0.5 of 12);*/
+    margin-left: span(7 of 12);/*span(0.5 of 12);*/
     margin-top: 150px;
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
+    position: fixed;
     width: $right-sidebar-width;
     margin-top: 150px;
     /*margin-left: 70%;/*span(0.5 of 12);*/
@@ -172,7 +173,7 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: #fff;
+  background: #000;
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
