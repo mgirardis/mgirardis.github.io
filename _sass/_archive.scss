@@ -31,6 +31,42 @@
   }
 }
 
+.archive_hack_mauricio {
+  width: 100%;
+  float: left;
+  margin-right: 0;
+  padding-left: 4.2372881356%;
+
+
+  margin-bottom: 2em;
+
+  @include breakpoint($medium) {
+    @include span(12 of 12);
+  }
+
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
+
+  ol li::marker {
+    font-size: $type-size-5;
+  }
+
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
