@@ -1,10 +1,7 @@
 {% include base_path %}
 
+{% if page.author_profile or layout.author_profile %}
 <div class="sidebar sticky">
-  
-{% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  
-{% include toc %}
-
-
+{% include author-profile.html %}
 </div>
+{% endif %}
