@@ -1,17 +1,16 @@
 {% include base_path %}
 
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+<div class="sidebar sticky"></div>
+  
+{% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  
 
-  {% if page.sidebar %}
-  <aside class="sidebar__right">
-    <nav class="toc" markdown="1">
-    <header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-    *  Auto generated table of contents
-    {:toc .toc__menu}
-    </nav>
-    </aside>
-  {% endif %}
-  </div>
-{% endif %}
+<aside class="sidebar__right">
+<nav class="toc" markdown="1">
+<header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+*  Auto generated table of contents
+{:toc .toc__menu}
+</nav>
+</aside>
+
+</div>
