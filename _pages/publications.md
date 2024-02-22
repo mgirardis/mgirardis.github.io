@@ -8,13 +8,11 @@ toc_sticky: true
 toc_label: "Skip to"
 ---
 
+{% include base_path %}
+
 {% include toc-publications %}
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
+You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.
 
 <h1 id="toc-paper">Peer-reviewed papers</h1>
 <ol reversed>
