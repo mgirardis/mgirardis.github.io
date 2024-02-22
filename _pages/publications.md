@@ -3,9 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: false
-toc: true
-toc_sticky: true
-toc_label: "Skip to"
 ---
 
 <div class="sidebar sticky"><!--<div style="width=150px;float=left;margin-top:200px;position:relative;">-->
