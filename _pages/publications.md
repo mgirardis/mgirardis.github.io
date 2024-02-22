@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label: "Skip to"
 ---
 
-{% include toc %}
+{% include toc-publications %}
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -16,64 +16,44 @@ toc_label: "Skip to"
 
 {% include base_path %}
 
-<!--<h2>Peer-reviewed papers</h2>-->
-
-# Peer-reviewed papers
-
+<h1 id="toc-paper">Peer-reviewed papers</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-
-  <h2 id="prp-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
-
+  <h2 id="toc-paper-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
 {% endfor %}
 </ol>
 
-<!--<h2>Books</h2>-->
-
-# Books
-
+<h1 id="toc-book">Books</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  
-  <h2 id="books-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
-
+  <h2 id="toc-book-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
 {% endfor %}
 </ol>
 
-<!--<h2>Proceedings</h2>-->
-
-# Proceedings
-
+<h1 id="toc-proceedings">Proceedings</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  
-  <h2 id="proc-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
-
+  <h2 id="toc-proceedings-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
 {% endfor %}
 </ol>
 
-<!--<h2>Theses</h2>-->
-
-# Theses
-
+<h1 id="toc-thesis">Theses</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'thesis' | group_by: 'year' %}
 {% for pubs_by_year in filtered_posts reversed %}
-  
-  <h2 id="thes-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
-
+  <h2 id="toc-thesis-{{ pubs_by_year.name }}">{{ pubs_by_year.name }}</h2>
   {% for post in pubs_by_year.items %}
     {% include archive-single-publications.html %}
   {% endfor %}
