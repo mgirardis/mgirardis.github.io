@@ -10,7 +10,11 @@ toc_label: "Skip to"
 
 {% include base_path %}
 
+<div style="height:200px;overflow:scroll;width=150px;float=left;padding-top:200px;">
 {% include toc-publications %}
+</div>
+
+<div style="float:left">
 
 You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.
 
@@ -57,3 +61,4 @@ You can also find my articles on <a href="{{author.googlescholar}}">my Google Sc
   {% endfor %}
 {% endfor %}
 </ol>
+</div>
