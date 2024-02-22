@@ -8,11 +8,11 @@ toc_sticky: true
 toc_label: "Skip to"
 ---
 
-<div style="height:200px;overflow:scroll;width=150px;float=left;margin-top:200px;position:relative;">
+<div class="sidebar sticky"><!--<div style="width=150px;float=left;margin-top:200px;position:relative;">-->
 {% include toc-publications %}
 </div>
 
-<div style="float:left;position:relative;">
+<div class="archive">
 {% include base_path %}
 
 You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.
