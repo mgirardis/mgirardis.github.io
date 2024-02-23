@@ -63,16 +63,16 @@
     position: fixed;
     float: right; /*float: right;*/
     width: $right-sidebar-width-narrow;
-    left: span(6.5 of 12);/*span(0.5 of 12);*/
-    top: calc($masthead-height+20px);
+    left: span(7.5 of 12);/*span(0.5 of 12);*/
+    top: calc($masthead-height+100px);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
     position: fixed;
     width: $right-sidebar-width;
-    top: calc($masthead-height+20px);
-    left: span(6.5 of 12);/*span(0.5 of 12);*/
+    top: calc($masthead-height+100px);
+    left: span(7.5 of 12);/*span(0.5 of 12);*/
   }
 }
 
