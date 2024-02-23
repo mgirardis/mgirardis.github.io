@@ -23,7 +23,7 @@ toc_label: "Skip to"
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
-  <h2 id="toc-outreach-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  <h2 id="toc-outreach-{{ talks_by_year.name }}"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;|&nbsp;{{ talks_by_year.name }}</h2>
   {% for post in talks_by_year.items %}
     {% include archive-single-talk.html %}
   {% endfor %}
@@ -35,7 +35,7 @@ toc_label: "Skip to"
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'invited' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
-  <h2 id="toc-invited-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  <h2 id="toc-invited-{{ talks_by_year.name }}"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;|&nbsp;{{ talks_by_year.name }}</h2>
   {% for post in talks_by_year.items %}
     {% include archive-single-talk.html %}
   {% endfor %}
@@ -46,7 +46,7 @@ toc_label: "Skip to"
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'conference' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
-  <h2 id="toc-conference-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  <h2 id="toc-conference-{{ talks_by_year.name }}"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;|&nbsp;{{ talks_by_year.name }}</h2>
   {% for post in talks_by_year.items %}
     {% include archive-single-talk.html %}
   {% endfor %}
