@@ -2,8 +2,8 @@
 title: "A minimal integrate-and-fire model for Mossy Cells"
 collection: talks
 type: conference
-venue: "Organization for Computational Neuroscience Meeting CNS*2021, Online, Available in: url, https://bit.ly/cns2021poster"
+venue: "Organization for Computational Neuroscience Meeting CNS*2021, Online."
 year: 2021
 location: ""
+website: https://bit.ly/cns2021poster
 ---
-<a href="https://bit.ly/cns2021poster" target="_blank">Learn more...</a>

@@ -1,9 +1,9 @@
 ---
-title: "Open astronomical observations of the Lunar eclipses and the transit of Mercury"
+title: "Open astronomical observations of the Lunar eclipses and the transit of Mercury -- Regularly happening to this date"
 collection: talks
 type: outreach
-venue: "Organizer/Speaker, Florianopolis, Brazil. See more in url, https://bit.ly/extensaoIFSC"
+venue: "Organizer/Speaker, Florianopolis, Brazil."
 year: 2014
 location: "Sao Jose, SC, Brazil"
+website: https://bit.ly/extensaoIFSC
 ---
-Regular events currently ongoing. <a href="https://bit.ly/extensaoIFSC" target="_blank">Learn more...</a>
