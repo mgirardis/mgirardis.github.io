@@ -12,7 +12,7 @@ author_profile: false
 <div class="archive">
 {% include base_path %}
 
-You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.
+You can also find all my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 
 <h1 id="toc-paper" class="toc-item-padding">Peer-reviewed papers</h1>
 <ol reversed>

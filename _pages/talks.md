@@ -13,7 +13,7 @@ author_profile: false
 {% include base_path %}
 
 {% if site.talkmap_link == true %}
-<p><a href="/talks/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<p><a href="/talks/talkmap.html">See a map of all the places where I've given a talk!</a></p>
 {% endif %}
 
 <h1 id="toc-outreach" class="toc-item-padding">Interviews and Science Outreach</h1>
