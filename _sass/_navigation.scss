@@ -369,6 +369,11 @@
    Table of contents navigation
    ========================================================================== */
 
+
+.toc-item-padding {
+  margin-top: $masthead-height;
+}
+
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
@@ -409,17 +414,17 @@
     text-decoration: none;
 
     &:hover {
-      color: #be6565;
+      color: $link-color-hover;
       background: $dark-gray;
       text-decoration: none;
     }
   }
 
-  > li:last-child {
+  /*> li:last-child {
     a {
       border-bottom: none;
     }
-  }
+  }*/
 
   li ul > li a {
     padding-left: 2rem;
