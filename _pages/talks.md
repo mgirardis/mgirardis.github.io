@@ -8,34 +8,48 @@ toc_sticky: true
 toc_label: "Skip to"
 ---
 
-{% include toc %}
+<div class="sidebar sticky" style="width=250px;"><!--<div style="width=150px;float=left;margin-top:200px;position:relative;">-->
+{% include toc-talks %}
+</div>
+
+<div class="archive">
+{% include base_path %}
 
 {% if site.talkmap_link == true %}
 <p><a href="/talks/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-# Interviews and Science Outreach
-
+<h1 id="toc-outreach">Interviews and Science Outreach</h1>
 <ul>
-{% assign filtered_posts = site.talks | where: 'type', 'Community outreach and interviews' %}
-{% for post in filtered_posts reversed %}
-  {% include archive-single-talk.html %}
+{% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
+{% for talks_by_year in filtered_posts reversed %}
+  <h2 id="toc-outreach-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  {% for post in talks_by_year.items %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
 {% endfor %}
 </ul>
 
-# Invited Talks
 
+<h1 id="toc-invited">Invited Talks</h1>
 <ul>
-{% assign filtered_posts = site.talks | where: 'type', 'Invited talks' %}
-{% for post in filtered_posts reversed %}
-  {% include archive-single-talk.html %}
+{% assign filtered_posts = site.talks | where: 'type', 'invited' | group_by: 'year' %}
+{% for talks_by_year in filtered_posts reversed %}
+  <h2 id="toc-invited-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  {% for post in talks_by_year.items %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
 {% endfor %}
 </ul>
 
-# Latest Conference Presentations
+<h1 id="toc-conference">Latest Conference Presentations</h1>
 <ul>
-{% assign filtered_posts = site.talks | where: 'type', 'Conference presentations' %}
-{% for post in filtered_posts reversed %}
-  {% include archive-single-talk.html %}
+{% assign filtered_posts = site.talks | where: 'type', 'conference' | group_by: 'year' %}
+{% for talks_by_year in filtered_posts reversed %}
+  <h2 id="toc-conference-{{ talks_by_year.name }}">{{ talks_by_year.name }}</h2>
+  {% for post in talks_by_year.items %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
 {% endfor %}
 </ul>
+</div>

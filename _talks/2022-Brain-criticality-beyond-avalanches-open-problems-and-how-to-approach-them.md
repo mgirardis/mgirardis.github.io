@@ -1,7 +1,7 @@
 ---
 title: "Brain criticality beyond avalanches: open problems and how to approach them"
 collection: talks
-type: "Conference presentations"
+type: conference
 venue: "Brain Criticality Conference 2022, Online, Available in: url, https://bit.ly/braincrit2022poster"
 year: 2022
 location: ""
