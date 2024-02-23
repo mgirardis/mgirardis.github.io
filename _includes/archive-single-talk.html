@@ -35,7 +35,7 @@
       {{ title }}
     </h3>
     <p class="archive__item-excerpt" itemprop="description">{% if post.year %}{{ post.year }}&nbsp;|&nbsp;{% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</p>
-    {% if post.excerpt %}<p class="archive__item-excerpt" style="font-size: 10pt;" itemprop="description">{{ post.excerpt | strip_html }}</p>{% endif %} <!--markdownify-->
+    {% if post.excerpt %}<p class="archive__item-excerpt" style="font-size: 10pt;" itemprop="description">{{ post.excerpt  }}</p>{% endif %} <!--markdownify   strip_html -->
   </article>
   </li>
 </div>
