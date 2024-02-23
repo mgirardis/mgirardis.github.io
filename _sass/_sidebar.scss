@@ -8,6 +8,7 @@
 
 .sidebar {
   top: calc($masthead-height+20px);
+  margin-top: 10px;
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -64,14 +65,16 @@
     float: right; /*float: right;*/
     width: $right-sidebar-width-narrow;
     left: span(7.5 of 12);/*span(0.5 of 12);*/
-    top: calc($masthead-height+100px);
+    top: $masthead-height;
+    margin-top: 50px;
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
     position: fixed;
     width: $right-sidebar-width;
-    top: calc($masthead-height+100px);
+    top: $masthead-height;
+    margin-top: 50px;
     left: span(7.5 of 12);/*span(0.5 of 12);*/
   }
 }
