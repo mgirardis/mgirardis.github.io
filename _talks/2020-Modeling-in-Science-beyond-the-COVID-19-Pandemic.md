@@ -6,5 +6,4 @@ venue: "Online interview for the Federal Institute of Santa Catarina for Science
 year: 2020
 location: ""
 ---
-
 <a href="https://bit.ly/entrevistas-palestras" target="_blank">Learn more...</a>

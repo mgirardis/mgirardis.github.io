@@ -6,5 +6,4 @@ venue: "Brain Criticality Conference 2022, Online, Available in: url, https://bi
 year: 2022
 location: ""
 ---
-
 <a href="https://bit.ly/braincrit2022poster" target="_blank">Learn more...</a>

@@ -6,5 +6,4 @@ venue: "Online interview for the University of the Extreme South of Santa Catari
 year: 2020
 location: ""
 ---
-
 <a href="https://bit.ly/entrevistas-palestras" target="_blank">Learn more...</a>

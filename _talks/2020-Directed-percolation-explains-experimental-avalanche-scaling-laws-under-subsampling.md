@@ -6,5 +6,4 @@ venue: "Brain Criticality Conference 2020, Online, Available in: url, https://bi
 year: 2020
 location: ""
 ---
-
 <a href="https://bit.ly/2V2Gr0i" target="_blank">Learn more...</a>

@@ -34,7 +34,7 @@
       {% endif %}-->
       {{ title }}
     </h3>
-    {% if post.year %}{{ post.year }}&nbsp;|&nbsp;{% endif %}{% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}</p> {% endif %}
+    <p class="archive__item-excerpt" itemprop="description">{% if post.year %}{{ post.year }}&nbsp;|&nbsp;{% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</p>
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
   </li>

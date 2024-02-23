@@ -6,5 +6,4 @@ venue: "Organization for Computational Neuroscience Meeting CNS*2021, Online, Av
 year: 2021
 location: ""
 ---
-
 <a href="https://bit.ly/cns2021poster" target="_blank">Learn more...</a>

@@ -6,5 +6,4 @@ venue: "14th International Neural Coding Workshop -- Neural Coding 2021, Online,
 year: 2021
 location: ""
 ---
-
 <a href="https://bit.ly/neuralcoding2021abs" target="_blank">Learn more...</a>
