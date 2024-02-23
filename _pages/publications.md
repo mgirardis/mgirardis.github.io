@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 
-<div class="sidebar sticky" style="width=200px;"><!--<div style="width=150px;float=left;margin-top:200px;position:relative;">-->
+<div class="sidebar sticky" style="width=250px;"><!--<div style="width=150px;float=left;margin-top:200px;position:relative;">-->
 {% include toc-publications %}
 </div>
 

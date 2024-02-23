@@ -7,7 +7,7 @@
    ========================================================================== */
 
 .sidebar {
-  top: $masthead-height;
+  top: calc($masthead-height+20px);
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -56,23 +56,23 @@
   width: 100px;
   /*margin-top: 60px;*/
   position: fixed;
-  margin-left: 70%;/*span(0.5 of 12);*/
+  left: 70%;/*span(0.5 of 12);*/
 
   @include breakpoint($large) {
     /*position: relative;*/
     position: fixed;
     float: right; /*float: right;*/
     width: $right-sidebar-width-narrow;
-    margin-left: span(6.5 of 12);/*span(0.5 of 12);*/
-    margin-top: 150px;
+    left: span(6.5 of 12);/*span(0.5 of 12);*/
+    top: calc($masthead-height+20px);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
     position: fixed;
     width: $right-sidebar-width;
-    margin-top: 150px;
-    margin-left: span(6.5 of 12);/*span(0.5 of 12);*/
+    top: calc($masthead-height+20px);
+    left: span(6.5 of 12);/*span(0.5 of 12);*/
   }
 }
 
