@@ -32,12 +32,8 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}-->
-      {{ title }}
+      {{ title }} {% if post.year %}&nbsp;|&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.year }}{% endif %}
     </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.year %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.year }} </p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}</p> {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
