@@ -35,7 +35,7 @@
       {{ title }}
     </h3>
     <p class="archive__item-excerpt" itemprop="description">{% if post.year %}{{ post.year }}&nbsp;|&nbsp;{% endif %}{% if post.venue %}{{ post.venue }}{% endif %}</p>
-    {% if post.website %}<p class="archive__item-excerpt" itemprop="description"><a href="{{ post.website }}" target="_blank">Learn more...</a></p>{% endif %} <!--   strip_html -->
+    {% if post.website.size > 0 %}<p class="archive__item-excerpt" itemprop="description"><a href="{{ post.website }}" target="_blank">Learn more...</a></p>{% endif %} <!--   strip_html -->
   </article>
   </li>
 </div>
