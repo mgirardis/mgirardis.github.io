@@ -20,6 +20,7 @@
 2. add the proper settings to `./_config.yml` (e.g., the `collections` settings and the `defaults` settings)
 3. I believe that the `path` tag in the `defaults` config must match the `./_FOLDER` where the pages to be listed in the new page corresponding to the new menu item will be placed. 
 4. I also believe that the `path` tag in the `defaults` must match with the filename (either `.md` or `.html`) of the page the menu link will refer to in the folder `./_pages`
+5. The page added in `./_pages` will have the liquid variable `site.FOLDER` where `FOLDER` is the name of the folder created in step 2. This variable contains all the _posts_, each of which is an `md` or `html` file in `./_FOLDER`
 
 # How to add people
 1. duplicate a file inside `./_people` directory and modify it accordingly
