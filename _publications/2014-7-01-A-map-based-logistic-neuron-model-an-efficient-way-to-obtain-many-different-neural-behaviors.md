@@ -1,7 +1,7 @@
 ---
 title: "A map-based logistic neuron model: an efficient way to obtain many different neural behaviors"
 collection: publications
-date: 2014-01-01
+date: 2014-7-01
 year: 2014
 venue: 'BMC Neurosci.'
 paperurl: 'http://dx.doi.org/10.1186/1471-2202-15-S1-P24'

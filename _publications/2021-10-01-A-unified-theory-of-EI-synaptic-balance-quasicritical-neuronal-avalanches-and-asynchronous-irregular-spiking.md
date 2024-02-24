@@ -1,0 +1,11 @@
+---
+title: "A unified theory of E/I synaptic balance, quasicritical neuronal avalanches and asynchronous irregular spiking"
+collection: publications
+date: 2021-10-01
+year: 2021
+venue: 'J. Phys. Complex.'
+paperurl: 'https://dx.doi.org/10.1088/2632-072x/ac2792'
+citation: ' <u>Mauricio Girardi-Schappo</u>,  Emilio Galera,  Tawan Carvalho,  Ludmila Brochini,  Nilton Kamiji,  Antonio Roque,  Osame Kinouchi, &quot;A unified theory of E/I synaptic balance, quasicritical neuronal avalanches and asynchronous irregular spiking.&quot; J. Phys. Complex., 2021.'
+pubtype:  paper
+---
+Neuronal avalanches and asynchronous irregular (AI) firing patterns have been thought to represent distinct frameworks to understand the brain spontaneous activity. The former is typically present in systems where there is a balance between the slow accumulation of tension and its fast dissipation, whereas the latter is accompanied by the balance between synaptic excitation and inhibition (E/I). Here, we develop a new theory of E/I balance that relies on two homeostatic adaptation mechanisms: the short-term depression of inhibition and the spike-dependent threshold increase. First, we turn off the adaptation and show that the so-called static system has a typical critical point commonly attributed to self-organized critical models. Then, we turn on the adaptation and show that the network evolves to a dynamic regime in which: (I) E/I synapses balance for large recovery time scales; (II) an AI firing pattern emerges; and (III) neuronal avalanches display power laws. This is the first time that these three phenomena appear simultaneously in the same network activity. Thus, we show that AI activity and PL avalanches may coexist into a single dynamics, provided that adaptation mechanisms are in place. In our model, the AI firing pattern is a direct consequence of the hovering close to the critical line where external inputs are compensated by threshold growth, creating synaptic balance for any E/I weight ratio.

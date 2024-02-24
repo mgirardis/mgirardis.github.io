@@ -1,7 +1,7 @@
 ---
 title: "Transições de fase em modelos do cérebro: uma abordagem computacional"
 collection: publications
-date: 2016-01-01
+date: 2016-3-01
 year: 2016
 venue: 'Universidade Federal de Santa Catarina, SC, Brasil'
 paperurl: 'https://bu.ufsc.br/teses/PFSC0289-T.pdf'
