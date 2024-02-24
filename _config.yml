@@ -202,7 +202,7 @@ defaults:
   # _highlights
   - scope:
       path: "highlights"
-      type: highlights
+      type: posts #
     values:
       layout: single
       author_profile: false

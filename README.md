@@ -12,7 +12,7 @@
 2. need to verify whether the CSS styling is compatible (TO-DO)
 
 # How to add a highlight
-1. highlights are blog post (like news in a site); so duplicate one of the files in `./_posts` and modify it accordingly
+1. highlights are blog post (like news in a site); so duplicate one of the files in `./_highlights` and modify it accordingly
 2. need to verify whether the CSS styling is compatible (TO-DO)
 
 # How to add a new top menu item
