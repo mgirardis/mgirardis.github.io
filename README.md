@@ -2,6 +2,32 @@ A Github Pages template for academic websites. This was forked (then detached) b
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
+# How to add a publication (in my modified site)
+1. include it in the bib file that's referenced within `markdown_generator/PubsFromBib.ipynb` and run this script (publications should contain year, month and abstract, other than the usual bibtex tags)
+2. update the TOC by running `./build_toc_for_page.ipynb` set for `publications`
+
+# How to add a talk (in my modified site)
+1. duplicate a talk file inside the `./_talks` folder and modify it accordingly (make sure to make a `location` tag in the header with the city name where the talk was given)
+2. update the talk map by running the `./talkmap.ipynb` script to generate the maps with cities where the talks were given
+3. update the TOC by running `./build_toc_for_page.ipynb` set for `talks`
+
+# How to add a teaching event
+1. duplicate a file inside `./_teaching` directory and modify it accordingly
+2. need to verify whether the CSS styling is compatible (TO-DO)
+
+# How to add a highlight
+1. highlights are blog post (like news in a site); so duplicate one of the files in `./_posts` and modify it accordingly
+2. need to verify whether the CSS styling is compatible (TO-DO)
+
+# How to add a new top menu item
+1. modify `./_data/navigation.yml` to include a page
+2. add the proper settings to `./_config.yml` (e.g., the `collections` settings and the `defaults` settings)
+3. I believe that the `path` tag in the `defaults` config must match the `./_FOLDER` where the pages to be listed in the new page corresponding to the new menu item will be placed
+
+# How to add people
+1. duplicate a file inside `./_people` directory and modify it accordingly
+3. if a new category of people is needed (other than PI, students, collabs), then include it in the sort order `people-order` in `./_config.yml`
+
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
 # Instructions
