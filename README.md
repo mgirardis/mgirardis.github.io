@@ -1,7 +1,3 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
-
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
-
 # How to add a publication (in my modified site)
 1. include it in the bib file that's referenced within `markdown_generator/PubsFromBib.ipynb` and run this script (publications should contain year, month and abstract, other than the usual bibtex tags)
 2. update the TOC by running `./build_toc_for_page.ipynb` set for `publications`
@@ -28,7 +24,13 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 1. duplicate a file inside `./_people` directory and modify it accordingly
 3. if a new category of people is needed (other than PI, students, collabs), then include it in the sort order `people-order` in `./_config.yml`
 
+# original README below
+
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+
+A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+
+I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
 # Instructions
 
