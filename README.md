@@ -18,7 +18,8 @@
 # How to add a new top menu item
 1. modify `./_data/navigation.yml` to include a page
 2. add the proper settings to `./_config.yml` (e.g., the `collections` settings and the `defaults` settings)
-3. I believe that the `path` tag in the `defaults` config must match the `./_FOLDER` where the pages to be listed in the new page corresponding to the new menu item will be placed
+3. I believe that the `path` tag in the `defaults` config must match the `./_FOLDER` where the pages to be listed in the new page corresponding to the new menu item will be placed. 
+4. I also believe that the `path` tag in the `defaults` must match with the filename (either `.md` or `.html`) of the page the menu link will refer to in the folder `./_pages`
 
 # How to add people
 1. duplicate a file inside `./_people` directory and modify it accordingly
