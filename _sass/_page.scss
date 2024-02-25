@@ -314,16 +314,8 @@
   transition: $global-transition;
 
   input,textarea {
-    color:#000;
-    background-color: $lighter-gray;
-    ::-moz-selection { /* Code for Firefox */
-      color: $dark-gray;
-      background: $link-color;
-    }
-    ::selection {
-      color: $dark-gray;
-      background: $link-color;
-    }
+    color:#fff;
+    background-color: #000;
   }
 
   &.disabled {
