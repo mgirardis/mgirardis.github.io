@@ -313,6 +313,15 @@
   background: $darker-gray;
   transition: $global-transition;
 
+  input {
+    color:#000;
+    background-color: $lighter-gray;
+  }
+  textarea {
+    color:#000;
+    background-color: $lighter-gray;
+  }
+
   &.disabled {
     input,
     button,
