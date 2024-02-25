@@ -1,7 +1,8 @@
 ---
+layout: single
 title: 'Future Blog Post'
 date: 2199-01-01
-collection: highlights
+collection: posts
 tags:
   - cool posts
   - category1
