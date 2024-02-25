@@ -202,10 +202,10 @@ collections:
 
 # Defaults
 defaults:
-  # _highlights
+  # posts, highlights
   - scope:
       path: "highlights"
-      type: highlights #posts
+      type: posts #highlights
     values:
       layout: single
       author_profile: false
