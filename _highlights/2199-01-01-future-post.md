@@ -1,7 +1,6 @@
 ---
 title: 'Future Blog Post'
 date: 2199-01-01
-permalink: /highlights/2199/01/future-post/
 collection: highlights
 tags:
   - cool posts

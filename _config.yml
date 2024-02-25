@@ -182,6 +182,9 @@ kramdown:
 
 # Collections
 collections:
+  highlights:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
