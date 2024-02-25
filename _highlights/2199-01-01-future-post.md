@@ -1,5 +1,6 @@
 ---
 layout: single
+collection: highlights
 title: 'Future Blog Post'
 date: 2199-01-01
 tags:
