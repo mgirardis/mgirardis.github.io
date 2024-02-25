@@ -313,13 +313,17 @@
   background: $darker-gray;
   transition: $global-transition;
 
-  input {
+  input,textarea {
     color:#000;
     background-color: $lighter-gray;
-  }
-  textarea {
-    color:#000;
-    background-color: $lighter-gray;
+    ::-moz-selection { /* Code for Firefox */
+      color: $dark-gray;
+      background: $link-color;
+    }
+    ::selection {
+      color: $dark-gray;
+      background: $link-color;
+    }
   }
 
   &.disabled {
