@@ -204,7 +204,7 @@ collections:
 defaults:
   # posts, highlights
   - scope:
-      path: "highlights"
+      path: "/highlights"
       type: posts #highlights
     values:
       layout: single
