@@ -4,7 +4,8 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/plasticity-LASCON-USP
 venue: "Latin American School on Computational Neuroscience - LASCON, Universidade de São Paulo (USP)"
-date: "2020"
+date: 2020
+taughtat: "2020"
 location: "São Paulo, SP, Brazil"
 ---
 
