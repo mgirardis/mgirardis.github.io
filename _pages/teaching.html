@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 {% include base_path %}
-
+<p>&nbsp;</p>
 <h1 id="toc-grad" class="toc-item-padding">Graduate courses</h1>
 <ul>
 {% assign filtered_posts = site.teaching | where: 'type', 'Graduate course' | group_by: 'venue' %}
@@ -21,7 +21,7 @@ author_profile: false
 
 <h1 id="toc-undergrad" class="toc-item-padding">Undergraduate courses</h1>
 <ul>
-{% assign filtered_posts = site.talks | where: 'type', 'Undergraduate course' | group_by: 'venue' %}
+{% assign filtered_posts = site.teaching | where: 'type', 'Undergraduate course' | group_by: 'venue' %}
 {% for course_by_venue in filtered_posts %}
   <h2 id="toc-undergrad-{{ course_by_venue.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-university" aria-hidden="true"></i>&nbsp;&nbsp;{{ course_by_venue.name }}</h2>
   {% for post in course_by_venue.items %}
