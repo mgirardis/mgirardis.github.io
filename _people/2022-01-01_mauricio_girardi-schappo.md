@@ -7,5 +7,6 @@ job: "Principal investigator"
 level: ""
 yearsactive_from: 2010
 yearsactive_to: ""
-shared_with: ""
+project_description: ""
+studentshared: ""
 ---

@@ -8,5 +8,5 @@ level: "PhD"
 yearsactive_from: 2015
 yearsactive_to: ""
 project_description: "Characterizing the bifurcations leading to disrupted membrane potential behavior in heart cells."
-shared_with: "Marcelo Tragtenberg (main supervisor, UFSC)"
+studentshared: "Marcelo Tragtenberg (main supervisor, UFSC)"
 ---

@@ -7,5 +7,6 @@ job: "Collaborators"
 level: ""
 yearsactive_from: 2018
 yearsactive_to: ""
-shared_with: ""
+project_description: ""
+studentshared: ""
 ---

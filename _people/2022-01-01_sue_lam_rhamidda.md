@@ -8,5 +8,5 @@ level: "PhD"
 yearsactive_from: 2022
 yearsactive_to: ""
 project_description: "Proposing a new self-organization meachnism to drive a system toward the edge of a synchronization transition."
-shared_with: "Osame Kinouchi (main supervisor, USP-RP)"
+studentshared: "Osame Kinouchi (main supervisor, USP-RP)"
 ---
