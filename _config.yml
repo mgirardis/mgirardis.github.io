@@ -189,6 +189,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+    sort_by: type
   publications:
     output: true
     permalink: /:collection/:path/
