@@ -38,7 +38,7 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    <p style="font-size: 10pt;">Taught at: {{ post.taughtat }} -- {{ post.type }}, <i>{{ post.venue }}</i></p>
+    <p style="font-size: 10pt;">{% if post.taughtat and post.taughtat.size > 0 %}Taught at: {{ post.taughtat }} -- {% endif %}{{ post.type }}, <i>{{ post.venue }}</i></p>
 
 
     {% if post.excerpt and site.read_more != 'enabled' %}
