@@ -13,9 +13,10 @@ author_profile: false
 {% include base_path %}
 
 {% if site.talkmap_link == true %}
-<p><a href="/talks/talkmap.html">See a map of all the places where I've given a talk!</a></p>
+<p>Check out the <a href="/talks/talkmap.html">places</a> where I've given a talk!</p>
 {% endif %}
 
+<p>&nbsp;</p>
 <h1 id="toc-outreach" class="toc-item-padding">Interviews and Science Outreach</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
@@ -27,7 +28,7 @@ author_profile: false
 {% endfor %}
 </ul>
 
-
+<p>&nbsp;</p>
 <h1 id="toc-invited" class="toc-item-padding">Invited Talks</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'invited' | group_by: 'year' %}
@@ -39,6 +40,7 @@ author_profile: false
 {% endfor %}
 </ul>
 
+<p>&nbsp;</p>
 <h1 id="toc-conference" class="toc-item-padding">Latest Conference Presentations</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'conference' | group_by: 'year' %}

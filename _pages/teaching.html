@@ -6,9 +6,8 @@ author_profile: false
 ---
 
 {% include base_path %}
+
 <p>&nbsp;</p>
-
-
 <h1 id="toc-undergrad" class="toc-item-padding">Undergraduate courses</h1>
 <ul>
 {% assign filtered_posts = site.teaching | where: 'type', 'Undergraduate course' | group_by: 'venue' %}

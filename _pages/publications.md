@@ -14,6 +14,7 @@ author_profile: false
 
 You can also find all my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 
+<p>&nbsp;</p>
 <h1 id="toc-paper" class="toc-item-padding">Peer-reviewed papers</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'paper' | group_by: 'year' %}
@@ -25,6 +26,7 @@ You can also find all my papers on <a href="{{site.author.googlescholar}}">my Go
 {% endfor %}
 </ol>
 
+<p>&nbsp;</p>
 <h1 id="toc-book" class="toc-item-padding">Books</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'book' | group_by: 'year' %}
@@ -36,6 +38,7 @@ You can also find all my papers on <a href="{{site.author.googlescholar}}">my Go
 {% endfor %}
 </ol>
 
+<p>&nbsp;</p>
 <h1 id="toc-proceedings" class="toc-item-padding">Proceedings</h1>
 <ol reversed>
 {% assign filtered_posts = site.publications | where: 'pubtype', 'proceedings' | group_by: 'year' %}
