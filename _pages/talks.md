@@ -12,11 +12,12 @@ author_profile: false
 <div class="archive">
 {% include base_path %}
 
+<p>This is a list of recent talks and conference presentations, along with science outreach initiatives and interviews promoted in partnership with our lab.
 {% if site.talkmap_link == true %}
-<p>Check out the <a href="/talks/talkmap.html">places</a> where I've given a talk!</p>
+&nbsp;Check out the <a href="/talks/talkmap.html">cities</a> where we were present!
 {% endif %}
+</p>
 
-<p>&nbsp;</p>
 <h1 id="toc-outreach" class="toc-item-padding">Interviews and Science Outreach</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
@@ -28,7 +29,6 @@ author_profile: false
 {% endfor %}
 </ul>
 
-<p>&nbsp;</p>
 <h1 id="toc-invited" class="toc-item-padding">Invited Talks</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'invited' | group_by: 'year' %}
@@ -40,7 +40,6 @@ author_profile: false
 {% endfor %}
 </ul>
 
-<p>&nbsp;</p>
 <h1 id="toc-conference" class="toc-item-padding">Latest Conference Presentations</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'conference' | group_by: 'year' %}

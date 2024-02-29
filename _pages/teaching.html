@@ -7,7 +7,8 @@ author_profile: false
 
 {% include base_path %}
 
-<p>&nbsp;</p>
+<p>If you are one of my students at UFSC, you should access <a href="https://presencial.moodle.ufsc.br/" target="_blank">Moodle UFSC presencial</a> to view your course's material.</p>
+
 <h1 id="toc-undergrad" class="toc-item-padding">Undergraduate courses</h1>
 <ul>
 {% assign filtered_posts = site.teaching | where: 'type', 'Undergraduate course' | group_by: 'venue' %}
@@ -19,7 +20,6 @@ author_profile: false
 {% endfor %}
 </ul>
 
-<p>&nbsp;</p>
 <h1 id="toc-grad" class="toc-item-padding">Graduate courses</h1>
 <ul>
 {% assign filtered_posts = site.teaching | where: 'type', 'Graduate course' | group_by: 'venue' %}
