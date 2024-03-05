@@ -13,6 +13,14 @@ redirect_from:
   - /about.html
 ---
 
+Últimas atualizações
+=====
+
+[Minicurso de Dinâmica Não-Linear - PPGFSC UFSC 2024][{{ base_path }}/teaching/minicurso-ppgfsc-ufsc-2024]
+
+
+<hr />
+
 Welcome to the NeuroPhysics Lab, where we apply tools from Physics and Mathematics to model, understand and analyze data from brain recordings, behavioral experiments, neural networks, and other complex systems. We propose data-driven models (_i.e.,_ inspired by empirical data), but also develop original theories to make predictions. We support the synergy between modeling and experimentation. The latter informs model development and validates the reliable ones that accurately describe natural phenomena. Modeling, on the other hand, is an art that involves simplifying problems to uncover fundamental principles underlying empirical observations. Our research focus at this intersection.
 
 Our research offers a fascinating glimpse into the inner workings of our brains, exploring the intricate dance of neurons at the critical homeostatic and synaptic balance that governs their activity. This includes looking at input reverberation and coding, adaptation and self-organization, synchronization and neuronal avalanches. We apply principles of Phase Transitions, critical points, and bifurcations to quantify input-output relations and the capacity of encoding information, shedding light on how the brain actively senses and navigate complex environments.
