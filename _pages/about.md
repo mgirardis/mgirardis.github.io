@@ -16,7 +16,7 @@ redirect_from:
 Últimas atualizações
 =====
 
-[Minicurso de Dinâmica Não-Linear - PPGFSC UFSC 2024][{{ base_path }}/teaching/minicurso-ppgfsc-ufsc-2024]
+<a href="/teaching/minicurso-ppgfsc-ufsc-2024">Minicurso de Dinâmica Não-Linear - PPGFSC UFSC 2024</a>
 
 
 <hr />
