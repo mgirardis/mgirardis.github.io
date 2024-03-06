@@ -1,7 +1,7 @@
 ---
 title: "Conceitos de Dinâmica Não-Linear com Aplicações em Física e Biologia"
 collection: teaching
-type: "Graduate course"
+type: "Undergraduate course"
 permalink: /teaching/minicurso-ppgfsc-ufsc-2024
 venue: "Universidade Federal de Santa Catarina (UFSC)"
 date: 2024-03-02
