@@ -28,5 +28,6 @@ Bibliografia
 
 1. Strogatz, S. (2015) _Nonlinear Dynamics and Chaos: with Applications to Physics, Biology, Chemistry, and Engineering_. Westview Press
 2. Abraham & Shaw 1992. _Dynamics: the geometry of behavior_. 2nd ed. Addison Wesley
-3. Izhikevich E.M. (2007) _Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting_. The MIT press 
-4. Y. Kuznetsov (2004) _Elements of Applied Bifurcation Theory_. Springer
+3. Monteiro LHA (2023) _Sistemas Dinâmicos_ 4a ed. Livraria da Física
+4. Izhikevich E.M. (2007) _Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting_. The MIT press 
+5. Y. Kuznetsov (2004) _Elements of Applied Bifurcation Theory_. Springer
