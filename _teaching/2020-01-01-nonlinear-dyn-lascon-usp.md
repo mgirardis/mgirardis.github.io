@@ -1,7 +1,7 @@
 ---
 title: "Nonlinear dynamics in Neuroscience"
 collection: teaching
-type: "Graduate course"
+type: "Undergraduate course"
 permalink: /teaching/nonlinear-dyn-LASCON-USP
 venue: "Latin American School on Computational Neuroscience - LASCON, Universidade de São Paulo (USP)"
 date: 2020-01-01
