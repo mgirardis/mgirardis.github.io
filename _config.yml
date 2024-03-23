@@ -256,6 +256,13 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # ktzview
+  - scope:
+      path: "files/ktzview"
+      type: ktzview
+    values:
+      file: true
+
 
 people-order:
   - Principal investigator
