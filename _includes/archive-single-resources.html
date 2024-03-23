@@ -34,16 +34,15 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-
+    <p style="font-size: 10pt;">
     {% if post.external_link and post.external_link.size > 0 %}
-    <p><i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ post.external_link }}" target="_blank">View repository</a></p>
+    <span><i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ post.external_link }}" target="_blank">View repository</a></span>
     {% endif %}
-
     {% if post.internal_link and post.internal_link.size > 0 %}
-    <p><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ post.internal_link }}" target="_blank">View/Open</a></p>
+    <span>&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ post.internal_link }}" target="_blank">View/Open</a></span>
     {% endif %}
-
     </p>
+
   </article>
 </div>
 </li>
