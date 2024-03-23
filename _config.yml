@@ -258,7 +258,7 @@ defaults:
       share: true
   # ktzview
   - scope:
-      path: "files/ktzview"
+      path: "ktzview"
       type: ktzview
     values:
       file: true
