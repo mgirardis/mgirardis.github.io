@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "People"
-    url: /people/    
+    url: /people/
 
   - title: "Highlights"
     url: /highlights/
@@ -10,11 +10,14 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
+  - title: "Resources"
+    url: /resources/
+
 #  - title: "Portfolio"
 #    url: /portfolio/
     

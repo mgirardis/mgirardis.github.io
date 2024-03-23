@@ -200,6 +200,10 @@ collections:
   people:
     output: true
     permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -262,6 +266,15 @@ defaults:
       type: ktzview
     values:
       file: true
+  # resources
+  - scope:
+      path: "resources"
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: false
 
 
 people-order:
