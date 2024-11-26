@@ -213,6 +213,7 @@ defaults:
       type: highlights # posts 
     values:
       layout: single
+      type: grid
       author_profile: false
       read_time: true
       comments: false
