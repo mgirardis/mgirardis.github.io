@@ -1,6 +1,6 @@
 ---
 layout: single
-image:
+header:
   teaser: highlights/mouse_cog_map.png
   image_description: mouse cognitive map experiment
 collection: highlights
