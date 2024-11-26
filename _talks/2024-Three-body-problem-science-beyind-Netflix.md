@@ -1,7 +1,7 @@
 ---
-title: "Can a butterfly flap its wings in China and cause a tornado in Brazil?"
+title: "Three body problem: science beyind Netflix"
 collection: talks
 type: "Community outreach and interviews"
 venue: "Pint of Science Florianopolis, Brazil"
-year: 2019
+year: 2024
 ---

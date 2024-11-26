@@ -12,11 +12,11 @@ author_profile: false
 <div class="archive">
 {% include base_path %}
 
-<p>This is a list of recent talks and conference presentations, along with science outreach initiatives and interviews promoted in partnership with our lab.
 {% if site.talkmap_link == true %}
+<p>This is a list of recent talks and conference presentations, along with science outreach initiatives and interviews promoted in partnership with our lab.
 &nbsp;Check out the <a href="/talks/talkmap.html">cities</a> where we were present!
-{% endif %}
 </p>
+{% endif %}
 
 <h1 id="toc-outreach" class="toc-item-padding">Interviews and Science Outreach</h1>
 <ul>

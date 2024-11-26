@@ -5,7 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/statics-UFSC
 venue: "Universidade Federal de Santa Catarina (UFSC)"
 date: 2022-01-01
-taughtat: "2022-2, 2023-1, 2023-2, 2024-1"
+taughtat: "2022-2, 2023-1, 2023-2, 2024-1, 2024-2"
 location: "Florianopolis, SC, Brazil"
 ---
 

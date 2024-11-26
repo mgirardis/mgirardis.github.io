@@ -1,7 +1,7 @@
 ---
 title: "Conceitos de Dinâmica Não-Linear com Aplicações em Física e Biologia"
 collection: teaching
-type: "Undergraduate course"
+type: "Graduate course"
 permalink: /teaching/minicurso-ppgfsc-ufsc-2024
 venue: "Universidade Federal de Santa Catarina (UFSC)"
 date: 2024-03-02
@@ -9,21 +9,21 @@ taughtat: "2024"
 location: "Florianópolis, SC, Brazil"
 ---
 
-Equações diferenciais ordinárias (EDOs) são usadas na descrição de diversos tipos de fenômeno na natureza. Por um lado, elas nos permitem olhar para os sistemas de maneira abrangente e abstrata. Entretanto, achar soluções gerais mesmo para problemas lineares pode ser desafiador. Ao adicionar não-linearidades, a situação fica ainda mais complexa, já que, entre outras coisas, o princípio da superposição perde a validade. Neste minicurso, vamos introduzir princípios simples, mas poderosos, que podem ser usados para se ter uma visão geral de toda a família de soluções das EDOs não-lineares. Através de exemplos (Lasers, Juntas de Josephson, Modelo de Ising, Circuitos Elétricos, Osciladores, Reações Químicas, etc), serão discutidos conceitos como espaço de fase, ponto fixo, ciclo-limite, órbitas atratoras, repelentes e caóticas, e bifurcações (quando uma solução se transforma em outra através da mudança de parâmetros).
+Ordinary Differential Equations (ODEs) are used to describe various types of phenomena in nature. On one hand, they allow us to look at systems in a comprehensive and abstract way. However, finding general solutions even for linear problems can be challenging. Adding nonlinearities makes the situation even more complex, as, among other things, the principle of superposition no longer holds. In this short course, we will introduce simple yet powerful principles that can be used to get an overview of the entire family of solutions of nonlinear ODEs. Through examples (Lasers, Josephson Junctions, Ising Model, Electrical Circuits, Oscillators, Chemical Reactions, etc.), concepts such as phase space, fixed point, limit cycle, attracting, repelling, and chaotic orbits, and bifurcations (when a solution transforms into another through parameter changes) will be discussed.
 
 Material
 ======
 
-O material (slides, simulações, scripts) pode ser baixado diretamente do meu <a href="https://github.com/neuro-physics/curso-dinamica-naolinear" target="_blank">repositório do Github</a>.
+The material (slides, educational simulations, scripts) can be downloaded directly from my [GitHub repository](https://github.com/neuro-physics/curso-dinamica-naolinear).
 
-Objetivos
+Objectives
 ======
 
-* Compreender os fundamentos de sistemas dinâmicos e suas aplicações na modelagem de sistemas físicos e biológicos.
-* Analisar modelos reduzidos de EDOs em 1, 2 e 3 dimensões utilizando análise de espaço de fase e bifurcações.
-* Visão geral da periodicidade de ciclos limite e atratores estranhos.
+* Understand the fundamentals of dynamical systems and their applications in modeling physical and biological systems.
+* Analyze reduced models of ODEs in 1, 2, and 3 dimensions using phase space analysis and bifurcations.
+* Overview of the periodicity of limit cycles and strange attractors.
 
-Bibliografia
+Bibliography
 ======
 
 1. Strogatz, S. (2015) _Nonlinear Dynamics and Chaos: with Applications to Physics, Biology, Chemistry, and Engineering_. Westview Press
