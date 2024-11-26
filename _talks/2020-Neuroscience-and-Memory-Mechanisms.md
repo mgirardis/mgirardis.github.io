@@ -1,9 +1,9 @@
 ---
 title: "Neuroscience and Memory Mechanisms"
 collection: talks
-type: "Community outreach and interviews"
-venue: "Online interview for the University of the Extreme South of Santa Catarina, Brazil. See more in url, https://bit.ly/entrevistas-palestras"
+type: outreach
+venue: "Online interview for the University of the Extreme South of Santa Catarina, Brazil."
 year: 2020
+location: ""
+website: https://bit.ly/entrevistas-palestras
 ---
-
-[See more here](https://bit.ly/entrevistas-palestras)
