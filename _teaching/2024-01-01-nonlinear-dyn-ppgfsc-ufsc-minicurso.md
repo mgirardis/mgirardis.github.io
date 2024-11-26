@@ -1,5 +1,5 @@
 ---
-title: "Conceitos de Dinâmica Não-Linear com Aplicações em Física e Biologia"
+title: "Nonlinear dynamics in Physics and Biology"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/minicurso-ppgfsc-ufsc-2024

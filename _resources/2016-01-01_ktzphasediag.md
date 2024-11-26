@@ -2,8 +2,8 @@
 title: "KTz-family phase diagram"
 external_link: "https://github.com/mgirardis/ktz-phasediag"
 internal_link: ""
-year: 2010
-date: 2010-01-01
+year: 2016
+date: 2016-01-01
 ---
 
 This tool generates a phase diagram for the 3-dimensional map we call KTz. It can calculate the Lyapunov exponents, the interspike interval, the winding number, and the amplitude of the oscillations. It was built in FORTRAN 90 and requires intel fortran.
