@@ -762,32 +762,32 @@ var NeuronPar = function() { }
 NeuronPar.refreshToPage = function()
 {
 	this.type = document.getElementById("neuronTypeCbx").value;
-	this.K = parseFloat(document.getElementById("K").value);
-	this.T = parseFloat(document.getElementById("T").value);
-	this.d = parseFloat(document.getElementById("d").value);
-	this.l = parseFloat(document.getElementById("l").value);
-	this.xR = parseFloat(document.getElementById("xR").value);
-	this.H = parseFloat(document.getElementById("H").value);
-	this.Z = parseFloat(document.getElementById("Z").value);
-	this.x0 = parseFloat(document.getElementById("x0").value);
-	this.y0 = parseFloat(document.getElementById("y0").value);
-	this.z0 = parseFloat(document.getElementById("z0").value);
+	this.K    = parseFloat(document.getElementById("K").value);
+	this.T    = parseFloat(document.getElementById("T").value);
+	this.d    = parseFloat(document.getElementById("d").value);
+	this.l    = parseFloat(document.getElementById("l").value);
+	this.xR   = parseFloat(document.getElementById("xR").value);
+	this.H    = parseFloat(document.getElementById("H").value);
+	this.Q    = parseFloat(document.getElementById("Q").value);
+	this.x0   = parseFloat(document.getElementById("x0").value);
+	this.y0   = parseFloat(document.getElementById("y0").value);
+	this.z0   = parseFloat(document.getElementById("z0").value);
 }
 NeuronPar.getParameters = function()
 {
 	NeuronPar.refreshToPage();
 	return {
 		type: this.type,
-		K: this.K,
-		T: this.T,
-		d: this.d,
-		l: this.l,
-		xR: this.xR,
-		H: this.H,
-		Z: this.Z,
-		x0: this.x0,
-		y0: this.y0,
-		z0: this.z0 };
+		K   : this.K,
+		T   : this.T,
+		d   : this.d,
+		l   : this.l,
+		xR  : this.xR,
+		H   : this.H,
+		Q   : this.Q,
+		x0  : this.x0,
+		y0  : this.y0,
+		z0  : this.z0 };
 }
 
 var FNeuron = function() {}
@@ -959,22 +959,23 @@ function K2TzNeuron(neuPar)
 	this.d = d;
 	this.l = l;
 	this.xR = xR;*/
-	this.x = neuPar.x0;
-	this.y = neuPar.y0;
-	this.z = neuPar.z0;
-	this.K = neuPar.K;
+	this.x    = neuPar.x0;
+	this.y    = neuPar.y0;
+	this.z    = neuPar.z0;
+	this.K    = neuPar.K;
 	this.Tinv = 1.0/neuPar.T;
-	this.T = neuPar.T;
-	this.d = neuPar.d;
-	this.l = neuPar.l;
-	this.xR = neuPar.xR;
-	this.H = neuPar.H;
+	this.T    = neuPar.T;
+	this.d    = neuPar.d;
+	this.l    = neuPar.l;
+	this.xR   = neuPar.xR;
+	this.H 	  = neuPar.H;
+	this.Q 	  = neuPar.Q;
 	this.xAux = this.x;
 }
 K2TzNeuron.prototype.evaluate = function(I)
 {
 	this.xAux = this.x;
-	this.x = Math.tanh((this.x - this.K * this.y + this.z + I + this.H) * this.Tinv);
+	this.x = Math.tanh((this.x - this.K * this.y + this.z + I + this.Q) * this.Tinv);
 	this.y = Math.tanh( (this.xAux + this.H) * this.Tinv);
 	this.z = (1.0 - this.d) * this.z - this.l * (this.xAux - this.xR);
 }
@@ -991,19 +992,19 @@ function K2TNeuron(neuPar)
 	this.H = H;
 	this.K = K;
 	this.T = T;*/
-	this.x = neuPar.x0;
-	this.y = neuPar.y0;
-	this.H = neuPar.H;
-	this.K = neuPar.K;
+	this.x 	  = neuPar.x0;
+	this.y 	  = neuPar.y0;
+	this.H 	  = neuPar.H;
+	this.K 	  = neuPar.K;
 	this.Tinv = 1.0/neuPar.T;
-	this.T = neuPar.T;
-	this.Z = neuPar.Z;
+	this.T    = neuPar.T;
+	this.Q    = neuPar.Q;
 	this.xAux = this.x;
 }
 K2TNeuron.prototype.evaluate = function(I)
 {
 	this.xAux = this.x;
-	this.x = Math.tanh((this.x - this.K * this.y + this.Z + I) * this.Tinv);
+	this.x = Math.tanh((this.x - this.K * this.y + this.Q + I) * this.Tinv);
 	this.y = Math.tanh( (this.xAux + this.H) * this.Tinv);
 }
 K2TNeuron.prototype.get_x = function()
@@ -1379,21 +1380,24 @@ function changeNeuronType()
 {
 	var neuType = document.getElementById("neuronTypeCbx").value;
 	showHideNeuronFeaturesOf(neuType);
+	showHideKTzNeuronFeatures(neuType);
+	showHideK2TNeuronFeatures(neuType);
+}
+
+function showHideKTzNeuronFeatures(neuType)
+{
 	if (neuType.indexOf("Tz") != -1) // if (neuType.indexOf("KTz") != -1)
-	{
-		//document.getElementById("neuThirdVar").innerHTML = 'z<sub>0</sub>';
 		jQuery(".ktz").show("fast");
-		jQuery(".k2t").hide();
-	}
 	else
-	{
-		//document.getElementById("neuThirdVar").innerHTML = 'H';
 		jQuery(".ktz").hide();
-		if (neuType.indexOf("K2T") != -1)
-			jQuery(".k2t").show("fast");
-		else
-			jQuery(".k2t").hide();
-	}
+}
+
+function showHideK2TNeuronFeatures(neuType)
+{
+	if (neuType.indexOf("K2T") != -1)
+		jQuery(".k2t").show("fast");
+	else
+		jQuery(".k2t").hide();
 }
 
 function showHideNeuronFeaturesOf(neuType)

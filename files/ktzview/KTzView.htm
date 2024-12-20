@@ -106,8 +106,8 @@ Distributed under GNU License v3.0
                     <div class="paramRightColumn"><input type="text" name="xR" id="xR" value="-0.7" /></div>
                 </div>
                 <div class="controlPanelLine k2t">
-                	<div class="paramLeftColumn"><label for="Z">Z =</label></div>
-                    <div class="paramRightColumn"><input type="text" name="Z" id="Z" value="-0.01" /></div>
+                	<div class="paramLeftColumn"><label for="Q">Q =</label></div>
+                    <div class="paramRightColumn"><input type="text" name="Q" id="Q" value="-0.01" /></div>
                 </div>
                 <div class="controlPanelLine">
                 	<div class="paramLeftColumn"><label for="H">H =</label></div>
@@ -409,11 +409,11 @@ Distributed under GNU License v3.0
                     y(t+1) = x(t)
                     </div>
                     <div class="controlPanelLineEq K2TNeuron">
-                    x(t+1) = tanh((x(t) - Ky(t) + Z + I<sub>ext</sub>)/T) <br />
+                    x(t+1) = tanh((x(t) - Ky(t) + Q + I<sub>ext</sub>)/T) <br />
                     y(t+1) = tanh( (x(t)+H)/T )
                     </div>
                     <div class="controlPanelLineEq K2TzNeuron">
-                    x(t+1) = tanh((x(t) - Ky(t) + z(t) + I<sub>ext</sub>)/T) <br />
+                    x(t+1) = tanh((x(t) - Ky(t) + z(t) + Q + I<sub>ext</sub>)/T) <br />
                     y(t+1) = tanh( (x(t)+H)/T ) <br />
                     z(t+1) = (1-&delta;)z(t) - &lambda;(x(t) - x<sub>R</sub>)<br />
                     </div>
