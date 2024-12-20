@@ -26,7 +26,7 @@
 1. duplicate a file inside `./_people` directory and modify it accordingly
 3. if a new category of people is needed (other than PI, students, collabs), then include it in the sort order `people-order` in `./_config.yml`
 
-# Original README below
+# Original README below this point
 
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
