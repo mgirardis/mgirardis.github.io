@@ -4,7 +4,7 @@ collection: publications
 date: 2024-01-01
 year: 2024
 venue: 'eLife'
-paperurl: 'https://doi.org/10.7554/eLife.95764.1'
+paperurl: 'https://doi.org/10.7554/eLife.95764.4'
 citation: ' Jiayun Xu,  <u>Mauricio Girardi-Schappo</u>,  Jean-Claude Béïque,  André Longtin,  Leonard Maler (2024): <i>Shortcutting from self-motion signals reveals a cognitive map in mice.</i> <b>eLife 13</b>: RP95764.'
 pubtype:  paper
 ---
