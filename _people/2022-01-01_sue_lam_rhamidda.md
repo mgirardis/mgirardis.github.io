@@ -3,10 +3,10 @@ name: "Sue L. Rhâmidda"
 title: "MSc in Physics"
 university: "Universidade de São Paulo"
 location: "Ribeirão Preto, SP, Brazil"
-job: "Students"
-level: "PhD"
+job: "Alumni"
+level: "PhD (completed)"
 yearsactive_from: 2022
-yearsactive_to: ""
+yearsactive_to: 2025
 project_description: "Proposing a new self-organization meachnism to drive a system toward the edge of a synchronization transition."
 studentshared: "Osame Kinouchi (main supervisor, USP-RP)"
 ---

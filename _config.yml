@@ -182,7 +182,7 @@ kramdown:
 
 # Collections
 collections:
-  highlights:
+  news:
     output: true
     permalink: /:collection/:path/
     sort_by: date
@@ -207,10 +207,10 @@ collections:
 
 # Defaults
 defaults:
-  # posts, highlights
+  # posts, news
   - scope:
       path: ""
-      type: highlights # posts 
+      type: news # posts 
     values:
       layout: single-highlights
       type: grid
