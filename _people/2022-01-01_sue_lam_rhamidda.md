@@ -1,6 +1,6 @@
 ---
 name: "Sue L. Rhâmidda"
-title: "MSc in Physics"
+title: ""
 university: "Universidade de São Paulo"
 location: "Ribeirão Preto, SP, Brazil"
 job: "Alumni"

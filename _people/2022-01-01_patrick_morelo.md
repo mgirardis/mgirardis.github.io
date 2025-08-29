@@ -1,6 +1,6 @@
 ---
 name: "Patrick A. Morelo"
-title: "MSc in Physics"
+title: ""
 university: "Universidade Federal de Santa Catarina"
 location: "Florianópolis, SC, Brazil"
 job: "Alumni"
