@@ -1,9 +1,9 @@
 ---
-layout: single-highlights
+layout: single-news
 header:
-  teaser: highlights/mouse_cog_map.png
+  teaser: news/mouse_cog_map.png
   image_description: mouse cognitive map experiment
-collection: highlights
+collection: news
 title: 'Navigation: Building a cognitive map through self-motion'
 date: 2024-11-25
 tags:

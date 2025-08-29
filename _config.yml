@@ -212,7 +212,7 @@ defaults:
       path: ""
       type: news # posts 
     values:
-      layout: single-highlights
+      layout: single-news
       type: grid
       author_profile: false
       read_time: true
