@@ -11,8 +11,8 @@
 1. duplicate a file inside `./_teaching` directory and modify it accordingly
 2. need to verify whether the CSS styling is compatible (TO-DO)
 
-# How to add a highlight
-1. highlights are blog post (like news in a site); so duplicate one of the files in `./_highlights` and modify it accordingly
+# How to add a News
+1. news are blog post (like news in a site); so duplicate one of the files in `./_news` and modify it accordingly
 2. need to verify whether the CSS styling is compatible (TO-DO)
 
 # How to add a new top menu item

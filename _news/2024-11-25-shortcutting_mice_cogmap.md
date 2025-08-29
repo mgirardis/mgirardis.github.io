@@ -16,7 +16,7 @@ tags:
 
 Our recent paper where we show the appearence of a cognitive map in mice from self-motion signals received a highlight from eLife. 
 
-<!--<img src="{{ base_url }}/images/highlights/mouse_cog_map.png" alt="mouse cognitive map experiment teaser" width="100%" />-->
+<!--<img src="{{ base_url }}/images/news/mouse_cog_map.png" alt="mouse cognitive map experiment teaser" width="100%" />-->
 
 Mice can generate a cognitive map of an environment based on self-motion signals when there is a fixed association between their starting point and the location of their goal.
 
