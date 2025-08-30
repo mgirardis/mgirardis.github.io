@@ -12,6 +12,17 @@ redirect_from:
 {% include base_path %}
 
 <div>See our <a href="{{ base_path }}/publications/">publications</a> for more...</div>
+
+<h2 class="archive__subtitle">External Mentions</h2>
+<ul class="news-mentions">
+  {% for item in site.data.news_mentions %}
+    <li class="archive__item">
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+      <span class="archive__meta"> -- {{ item.source }}, {{ item.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
 <!--
 <h1><i class="fa fa-fw fa-cog fa-spin" aria-hidden="true"></i>&nbsp;&nbsp;page under construction</h1>
 -->
