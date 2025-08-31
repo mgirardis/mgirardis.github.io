@@ -12,12 +12,12 @@ redirect_from:
 {% include base_path %}
 
 
-<h2 class="archive__subtitle">External Mentions</h2>
+<h2 class="archive__subtitle">Interviews and news articles</h2>
 <ul class="news-mentions">
   {% for item in site.data.news_mentions %}
   <li class="archive__item">
-    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-    <span class="archive__meta"> -- {{ item.source }}, {{ item.date | date: "%B %d, %Y" }}</span>
+    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>.
+    <span class="archive__meta"> {{ item.source }}, {{ item.date | date: "%B %d, %Y" }}</span>
   </li>
   {% endfor %}
 </ul>
