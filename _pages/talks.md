@@ -18,7 +18,7 @@ author_profile: false
 </p>
 {% endif %}
 
-<h1 id="toc-outreach" class="toc-item-padding">Interviews and Science Outreach</h1>
+<h1 id="toc-outreach" class="toc-item-padding">Science Outreach</h1>
 <ul>
 {% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
