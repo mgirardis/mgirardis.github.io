@@ -3,10 +3,10 @@ title: "Hopfield Neural Network"
 external_link: "https://github.com/neuro-physics/hopfield-neural-network"
 internal_link: ""
 year: 2026
-date: 2066-01-01
+date: 2026-01-01
 ---
 
-This repository contains a modular Python implementation of the **Hopfield Network**, a form of recurrent artificial neural network that serves as a content-addressable (associative) memory system. This project is developed with educational purpose to study attractor dynamics, energy minimization, and memory retrieval in neural lattices.
+This repository contains a python implementation of the **Hopfield Network**, a form of recurrent artificial neural network that serves as a content-addressable (associative) memory system. This project is developed with educational purpose to study attractor dynamics, energy minimization, and memory retrieval in neural lattices.
 
 ## Features
 
