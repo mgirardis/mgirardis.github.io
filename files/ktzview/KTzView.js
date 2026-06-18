@@ -1025,6 +1025,8 @@ K2TNeuron.prototype.get_x = function()
 
 var allowedParams =
 {
+    ttrans : { id: "nStart"        },
+    ttotal : { id: "nSteps"        },
     neuron : { 
         id     : "neuronTypeCbx",
         values : [ "KTNeuron", "KTNeuronSig", "K2TNeuron", "KTzNeuron", "KTzNeuronSig", "K2TzNeuron" ] 
