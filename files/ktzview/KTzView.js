@@ -197,13 +197,15 @@ Output.prototype.clear = function()
 {
 	this.txt.value = "";
 }
-Output.prototype.print3ColData = function(x, y, z)
+Output.prototype.print3ColData = function(t, x, Iext, nlineStart)
 {
-	var n = x.length;
-	var i = 0;
+    if (nlineStart < 0)
+        nlineStart = 0;
+	var n = t.length;
+	var i = nlineStart;
 	while (i < n)
 	{
-		this.printLn(x[i] + "\t" + y[i] + "\t" + z[i]);
+		this.printLn(t[i] + "\t" + x[i] + "\t" + Iext[i]);
 		i++;
 	}
 }
@@ -1021,6 +1023,82 @@ K2TNeuron.prototype.get_x = function()
 *
 */
 
+var allowedParams =
+{
+    neuron : { 
+        id     : "neuronTypeCbx",
+        values : [ "KTNeuron", "KTNeuronSig", "K2TNeuron", "KTzNeuron", "KTzNeuronSig", "K2TzNeuron" ] 
+    },
+    x0     : { id: "x0"            },
+    y0     : { id: "y0"            },
+    z0     : { id: "z0"            },
+    K      : { id: "K"             },
+    T      : { id: "T"             },
+    d      : { id: "d"             },
+    l      : { id: "l"             },
+    xR     : { id: "xR"            },
+    Q      : { id: "Q"             },
+    H      : { id: "H"             },
+
+    stim   : {
+        id     : "stimulusTypeCbx",
+        values : [ "Delta", "DelSeries", "Cos", "Neu", "Noi", "Lin", "2Neu" ]
+    },
+    Delta_I            : { id : "Delta_I"            },
+    Delta_nStim        : { id : "Delta_nStim"        },
+    Delta_sStim        : { id : "Delta_sStim"        },
+    Delta_dt           : { id : "Delta_dt"           },
+    Delta_osc          : {
+        id     : "Delta_osc",
+        values : ["1", "-1"]
+    },
+    DelSeries_I        : { id : "DelSeries_I"        },
+    DelSeries_nStim    : { id : "DelSeries_nStim"    },
+    DelSeries_sStim    : { id : "DelSeries_sStim"    },
+    DelSeries_dt       : { id : "DelSeries_dt"       },
+    DelSeries_osc      : {
+        id     : "DelSeries_osc",
+        values : ["1", "-1"]
+    },
+    DelSeries_dtS      : { id : "DelSeries_dtS"      },
+    DelSeries_nSer     : { id : "DelSeries_nSer"     },
+    DelSeries_oscPulse : {
+        id     : "DelSeries_oscPulse",
+        values : ["1", "-1"]
+    },
+    Cos_I              : { id : "Cos_I"              },
+    Cos_omega          : { id : "Cos_omega"          },
+    Cos_phi            : { id : "Cos_phi"            },
+    Cos_ti             : { id : "Cos_ti"             },
+    Cos_tf             : { id : "Cos_tf"             },
+    Neu_tauf           : { id : "Neu_tauf"           },
+    Neu_taug           : { id : "Neu_taug"           },
+    Neu_J              : { id : "Neu_J"              },
+    Neu_I              : { id : "Neu_I"              },
+    Neu_nStim          : { id : "Neu_nStim"          },
+    Neu_sStim          : { id : "Neu_sStim"          },
+    Neu_dt             : { id : "Neu_dt"             },
+    Noi_tauf           : { id : "Noi_tauf"           },
+    Noi_taug           : { id : "Noi_taug"           },
+    Noi_J              : { id : "Noi_J"              },
+    Noi_R              : { id : "Noi_R"              },
+    Noi_I              : { id : "Noi_I"              },
+    Noi_nStim          : { id : "Noi_nStim"          },
+    Noi_sStim          : { id : "Noi_sStim"          },
+    Noi_dt             : { id : "Noi_dt"             },
+    Lin_I0             : { id : "Lin_I0"             },
+    Lin_a              : { id : "Lin_a"              },
+    Lin_t0             : { id : "Lin_t0"             },
+    Lin_t1             : { id : "Lin_t1"             },
+    TwoNeu_tauf        : { id : "2Neu_tauf"          },
+    TwoNeu_taug        : { id : "2Neu_taug"          },
+    TwoNeu_J           : { id : "2Neu_J"             },
+    TwoNeu_I           : { id : "2Neu_I"             },
+    TwoNeu_nStim       : { id : "2Neu_nStim"         },
+    TwoNeu_sStim       : { id : "2Neu_sStim"         },
+    TwoNeu_dt          : { id : "2Neu_dt"            }
+};
+
 var graphicNeu, graphicCur, outputTxt, stimulusTypeCbx;
 var debugTxt;
 
@@ -1102,6 +1180,79 @@ window.onload = function()
             document.getElementById("neuWithLines").checked = true;
     }
 
+    if (applyUrlParameters())
+    {
+        changeStimulusType();
+        changeNeuronType();
+        getParameters();
+        prepareGraphics();
+        prepareOutput();
+    }
+}
+
+function validateInputParamCbx(param_value, spec)
+{
+    for (var i = 0; i < spec.values.length; i++)
+    {
+        if (param_value == spec.values[i])
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+function applyUrlParameters()
+{
+    var params = {};
+    var query = window.location.search.substring(1);
+    if (!query) 
+        return 0;
+    var pairs = query.split("&");
+
+    for (var i = 0; i < pairs.length; i++)
+    {
+        var kv = pairs[i].split("=");
+        if (kv.length == 2)
+            params[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1]);
+    }
+
+
+    for (var id in params)
+    {
+        if (!(id in allowedParams))
+        {
+            if (window.console)
+                console.error("Parameter not allowed: '" + id + "' (value = '" + params[id] + "')");
+            continue;
+        }
+
+        var spec = allowedParams[id];
+        if (spec.values)
+        {
+            valid = validateInputParamCbx(params[id], spec);
+            if (!valid)
+            {
+                if (window.console)
+                    console.error("Invalid value '" + params[id] + "' for parameter '" + id + "'. Allowed values: " + spec.values.join(", "));
+                continue;
+            }
+        }
+
+        var obj = document.getElementById(spec.id);
+        if (!obj)
+        {
+            if (window.console)
+                console.error("Element not found: '" + spec.id + "'");
+            continue;
+        }
+
+        obj.value = params[id];
+        if (window.console)
+            console.log("# Set -> " + spec.id + " = " + params[id]);
+    }
+
+    return 1
 }
 
 function getParameters()
@@ -1273,9 +1424,11 @@ function calculateAndPlot()
 function printData()
 {
 	outputTxt.clear();
-	var header = "# KTz stimuli simulation " + (new Date()).toString("dd/mm/YYYY HH:ss") + "\r\n";
-	header += "#-\r\n";
-	header += "# parameters:\r\n";
+    var nPrintLines = parseInt(document.getElementById("nLastLinesOutput").value);
+	//var header = "# KTz simulation " + "\r\n";
+    //header += "# "+ (new Date()).toString("dd/mm/YYYY HH:ss") + "\r\n";
+	//header += "#-\r\n";
+	var header = "# parameters:\r\n";
 	header += "# K = " + NeuronPar.K + "\r\n";
 	header += "# T = " + NeuronPar.T + "\r\n";
 	header += "# d = " + NeuronPar.d + "\r\n";
@@ -1291,7 +1444,7 @@ function printData()
 	header += "# data:\r\n";
 	header += "# t\tx\tIext";
 	outputTxt.printLn(header);
-	outputTxt.print3ColData(t, x, Iext);
+	outputTxt.print3ColData(t, x, Iext, x.length-nPrintLines);
     //debugTxt.clear();
     //debugTxt.print3ColData(t,JValues,JValues);
 }

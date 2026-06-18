@@ -436,7 +436,15 @@ Distributed under GNU License v3.0
         </div>
         <div id="outputPanel">
         	<div class="groupTitle">output data</div>
-        	<div class="controlPanelLine" style="overflow: visible;"><textarea name="outputTxt" id="outputTxt" cols="100" rows="15"></textarea></div>
+            <div class="paramLeftColumn"> 
+            <div class="controlPanelLine">
+                <div style="float: left; width: 50%; text-align: right;"><label for="nLastLinesOutput"># last iter. to print:</label></div>
+                <div class="float: left; width: 50%; text-align: left;"><input style="width: 30%;" type="text" name="nLastLinesOutput" id="nLastLinesOutput" value="10" /></div>
+            </div>
+            </div>
+            <div class="paramRightColumn">
+        	<div class="controlPanelLine" style="overflow: visible;"><textarea style="float:left" name="outputTxt" id="outputTxt" cols="80" rows="15"></textarea></div>
+            </div>
             <!--<div class="controlPanelLine" style="overflow: visible;"><textarea name="debugTxt" id="debugTxt" cols="100" rows="15"></textarea></div>-->
         </div>
     </div>
