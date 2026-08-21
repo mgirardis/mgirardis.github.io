@@ -1,6 +1,6 @@
 ---
 name: "Constantino Francisco Vasconcelos"
-title: "MSc of Physics"
+title: "MSc in Physics"
 university: "Universidade Federal de Santa Catarina"
 location: "Florianópolis, SC, Brazil"
 job: "Students"
