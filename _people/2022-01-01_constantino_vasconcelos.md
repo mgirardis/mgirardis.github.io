@@ -1,12 +1,12 @@
 ---
 name: "Constantino Francisco Vasconcelos"
-title: ""
+title: "MSc of Physics"
 university: "Universidade Federal de Santa Catarina"
 location: "Florianópolis, SC, Brazil"
-job: "Alumni"
-level: "Master's (completed)"
+job: "Students"
+level: "PhD student"
 yearsactive_from: 2022
-yearsactive_to: 2024
+yearsactive_to: 
 project_description: "Studying the input sensitivity in mean-field generalized Ising with Glauber dynamics."
 studentshared: ""
 ---

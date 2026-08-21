@@ -9,7 +9,7 @@ taughtat: "2020"
 location: "São Paulo, SP, Brazil"
 ---
 
-Dive into the intricate world of "Synaptic Plasticity and Learning," unraveling the mechanisms that underlie the adaptability of neural connections. From the classic Hebb rule to modern models of Hebbian learning, explore spike-timing dependent potentiation and depression, as well as long and short term synaptic changes. Understand the principles of unsupervised learning, delve into the Hopfield model, and explore the fascinating realm of reward-based learning.
+This course looks into the mechanisms of adaptability of neural connections. From the classic Hebb rule to modern models of Hebbian learning, spike-timing dependent potentiation and depression, as well as long and short term synaptic changes. We review unsupervised learning, the Hopfield model, and reward-based learning.
 
 Course Objectives:
 1. Comprehend the Hebb rule and its experimental foundations.
