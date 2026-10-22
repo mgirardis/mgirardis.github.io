@@ -25,7 +25,7 @@ author_profile: false
   {% assign talktype = type_parts[0] %}
   {% assign heading = type_parts[1] %}
   <h1 id="toc-{{ talktype }}" class="toc-item-padding">{{ heading }}</h1>
-  <ul>
+  <ol>
   {% assign filtered_posts = site.talks | where: 'type', talktype | group_by: 'year' %}
   {% for talks_by_year in filtered_posts reversed %}
     <h2 id="toc-{{ talktype }}-{{ talks_by_year.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ talks_by_year.name }}</h2>
@@ -33,6 +33,6 @@ author_profile: false
       {% include archive-single-talk.html %}
     {% endfor %}
   {% endfor %}
-  </ul>
+  </ol>
 {% endfor %}
 </div>

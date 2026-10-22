@@ -21,7 +21,7 @@ author_profile: false
 {% endif %}
 
 <h1 id="toc-outreach" class="toc-item-padding">Science Outreach</h1>
-<ul>
+<ol>
 {% assign filtered_posts = site.talks | where: 'type', 'outreach' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
   <h2 id="toc-outreach-{{ talks_by_year.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ talks_by_year.name }}</h2>
@@ -29,10 +29,10 @@ author_profile: false
     {% include archive-single-talk.html %}
   {% endfor %}
 {% endfor %}
-</ul>
+</ol>
 
 <h1 id="toc-invited" class="toc-item-padding">Invited Talks</h1>
-<ul>
+<ol>
 {% assign filtered_posts = site.talks | where: 'type', 'invited' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
   <h2 id="toc-invited-{{ talks_by_year.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ talks_by_year.name }}</h2>
@@ -40,10 +40,10 @@ author_profile: false
     {% include archive-single-talk.html %}
   {% endfor %}
 {% endfor %}
-</ul>
+</ol>
 
 <h1 id="toc-conference" class="toc-item-padding">Latest Conference Presentations</h1>
-<ul>
+<ol>
 {% assign filtered_posts = site.talks | where: 'type', 'conference' | group_by: 'year' %}
 {% for talks_by_year in filtered_posts reversed %}
   <h2 id="toc-conference-{{ talks_by_year.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ talks_by_year.name }}</h2>
@@ -51,5 +51,5 @@ author_profile: false
     {% include archive-single-talk.html %}
   {% endfor %}
 {% endfor %}
-</ul>
+</ol>
 </div>

@@ -73,3 +73,32 @@
     }
   }
 }
+
+.language-switcher {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+  z-index: 30;
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border: 1px solid rgba(#fff, 0.45);
+  border-radius: 4px;
+  background: rgba(#fff, 0.08);
+  font-size: 1.35rem;
+  line-height: 1;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(#fff, 0.18);
+  }
+}
+
+@media (max-width: 600px) {
+  .language-switcher {
+    top: 0.7rem;
+    right: 0.75rem;
+  }
+}

@@ -4,14 +4,16 @@
   {% assign navigation = site.data.navigation.main_pt %}
   {% assign home_url = "/pt/" %}
   {% assign language_url = page.translation_url | default: "/" %}
-  {% assign language_label = "English" %}
   {% assign language_code = "en" %}
+  {% assign language_flag = "🇬🇧" %}
+  {% assign language_label = "Switch language to English" %}
 {% else %}
   {% assign navigation = site.data.navigation.main %}
   {% assign home_url = "/" %}
   {% assign language_url = page.translation_url | default: "/pt/" %}
-  {% assign language_label = "Português" %}
   {% assign language_code = "pt-BR" %}
+  {% assign language_flag = "🇧🇷" %}
+  {% assign language_label = "Mudar idioma para português" %}
 {% endif %}
 
 <div class="masthead">
@@ -29,10 +31,10 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item"><a href="{{ base_path }}{{ language_url }}" lang="{{ language_code }}">{{ language_label }}</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <a class="language-switcher" href="{{ base_path }}{{ language_url }}" lang="{{ language_code }}" title="{{ language_label }}" aria-label="{{ language_label }}"><span aria-hidden="true">{{ language_flag }}</span></a>
     </div>
   </div>
 </div>

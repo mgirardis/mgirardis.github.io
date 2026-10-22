@@ -24,13 +24,13 @@ author_profile: false
 {% assign heading = type_parts[1] %}
 <h1 id="toc-{{ pubtype }}" class="toc-item-padding">{{ heading }}</h1>
 {% assign filtered_posts = site.publications | where: 'pubtype', pubtype | group_by: 'year' %}
+<ol reversed>
 {% for pubs_by_year in filtered_posts reversed %}
 <h2 id="toc-{{ pubtype }}-{{ pubs_by_year.name | slugify }}" class="toc-item-padding"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ pubs_by_year.name }}</h2>
-<ol reversed>
 {% for post in pubs_by_year.items %}
 {% include archive-single-publications.html %}
 {% endfor %}
-</ol>
 {% endfor %}
+</ol>
 {% endfor %}
 </div>
