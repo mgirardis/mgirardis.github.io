@@ -3,6 +3,12 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign author_bio = author.bio %}
+{% assign follow_label = "Follow" %}
+{% if page.lang == "pt-BR" and author.name == site.author.name %}
+  {% assign author_bio = "Trazendo contribuições da Física para a Neurociência e os Sistemas Complexos" %}
+  {% assign follow_label = "Acompanhar" %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -16,11 +22,11 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">{{ follow_label }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>

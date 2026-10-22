@@ -2,6 +2,8 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+lang: en
+translation_url: /pt/publications/
 author_profile: false
 ---
 

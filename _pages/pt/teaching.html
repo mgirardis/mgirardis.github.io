@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Ensino"
+permalink: /pt/teaching/
+lang: pt-BR
+locale: pt-BR
+translation_url: /teaching/
+author_profile: false
+---
+
+{% include base_path %}
+
+<p>Se você é estudante da UFSC, acesse o <a href="https://presencial.moodle.ufsc.br/" target="_blank">Moodle UFSC presencial</a> para consultar o material das disciplinas.</p>
+
+{% assign course_types = "Undergraduate course:Disciplinas de graduação,Graduate course:Disciplinas de pós-graduação" | split: "," %}
+{% for course_type in course_types %}
+  {% assign type_parts = course_type | split: ":" %}
+  {% assign coursetype = type_parts[0] %}
+  {% assign heading = type_parts[1] %}
+  <h1 class="toc-item-padding">{{ heading }}</h1>
+  <ul>
+  {% assign filtered_posts = site.teaching | where: 'type', coursetype | group_by: 'venue' %}
+  {% for course_by_venue in filtered_posts %}
+    <h2 class="toc-item-padding"><i class="fa fa-fw fa-university" aria-hidden="true"></i>&nbsp;&nbsp;{{ course_by_venue.name }}</h2>
+    {% for post in course_by_venue.items %}
+      {% include archive-single-teaching.html %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}

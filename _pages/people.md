@@ -2,6 +2,8 @@
 layout: archive-people
 title: "People"
 permalink: /people/
+lang: en
+translation_url: /pt/people/
 author_profile: true
 ---
 

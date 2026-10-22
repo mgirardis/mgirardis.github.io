@@ -2,6 +2,8 @@
 layout: archive
 title: "Resources"
 permalink: /resources/
+lang: en
+translation_url: /pt/resources/
 author_profile: false
 ---
 

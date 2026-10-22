@@ -2,6 +2,8 @@
 layout: archive
 title: "Talks"
 permalink: /talks/
+lang: en
+translation_url: /pt/talks/
 author_profile: false
 ---
 

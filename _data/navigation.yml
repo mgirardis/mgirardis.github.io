@@ -18,6 +18,20 @@ main:
   - title: "Resources"
     url: /resources/
 
+main_pt:
+  - title: "Pessoas"
+    url: /pt/people/
+  - title: "Notícias"
+    url: /pt/news/
+  - title: "Publicações"
+    url: /pt/publications/
+  - title: "Palestras"
+    url: /pt/talks/
+  - title: "Ensino"
+    url: /pt/teaching/
+  - title: "Recursos"
+    url: /pt/resources/
+
 #  - title: "Portfolio"
 #    url: /portfolio/
     

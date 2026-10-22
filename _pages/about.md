@@ -5,6 +5,8 @@ header:
   teaser: splash_screen.png
 layout: splash
 permalink: /
+lang: en
+translation_url: /pt/
 title: "NeuroPhysics Lab: developing data-driven complex systems' theories"
 excerpt: ""
 author_profile: true
