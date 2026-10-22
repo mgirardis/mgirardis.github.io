@@ -7,6 +7,6 @@ job: "Students"
 level: "Master's"
 yearsactive_from: 2026
 yearsactive_to: 
-project_description: "Modeling eye tracking and its relation to psychiatrical parameters; whole-brain modeling of epileptic patients."
+project_description: "Personalized Neural Modeling Applied to Precision Medicine in Neurological and Psychiatric Disorders."
 studentshared: "Prof. Rodrigo P. Rocha"
 ---
