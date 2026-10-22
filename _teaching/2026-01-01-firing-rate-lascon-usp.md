@@ -3,6 +3,8 @@ title: "Firing rate models in Neuroscience"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/firing-rate-LASCON-USP
+lang: en
+translation_url: /pt/teaching/firing-rate-LASCON-USP
 venue: "Latin American School on Computational Neuroscience - LASCON, Universidade de São Paulo (USP)"
 date: 2026-01-01
 taughtat: "2026"

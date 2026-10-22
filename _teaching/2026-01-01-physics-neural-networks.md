@@ -3,6 +3,8 @@ title: "Physics of Neural Networks (Portuguese)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/physics-neural-nets
+lang: en
+translation_url: /pt/teaching/physics-neural-nets
 venue: "Online"
 date: 2026-01-01
 taughtat: "2026"

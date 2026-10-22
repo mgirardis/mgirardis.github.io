@@ -14,17 +14,17 @@ author_profile: false
 
 {% assign course_types = "Undergraduate course:Disciplinas de graduação,Graduate course:Disciplinas de pós-graduação" | split: "," %}
 {% for course_type in course_types %}
-  {% assign type_parts = course_type | split: ":" %}
-  {% assign coursetype = type_parts[0] %}
-  {% assign heading = type_parts[1] %}
-  <h1 class="toc-item-padding">{{ heading }}</h1>
-  <ul>
-  {% assign filtered_posts = site.teaching | where: 'type', coursetype | group_by: 'venue' %}
-  {% for course_by_venue in filtered_posts %}
-    <h2 class="toc-item-padding"><i class="fa fa-fw fa-university" aria-hidden="true"></i>&nbsp;&nbsp;{{ course_by_venue.name }}</h2>
-    {% for post in course_by_venue.items %}
-      {% include archive-single-teaching.html %}
-    {% endfor %}
+{% assign type_parts = course_type | split: ":" %}
+{% assign coursetype = type_parts[0] %}
+{% assign heading = type_parts[1] %}
+<h1 class="toc-item-padding">{{ heading }}</h1>
+<ul>
+{% assign portuguese_courses = site.teaching | where: 'lang', 'pt-BR' | where: 'type', coursetype | group_by: 'venue' %}
+{% for course_by_venue in portuguese_courses %}
+<h2 class="toc-item-padding"><i class="fa fa-fw fa-university" aria-hidden="true"></i>&nbsp;&nbsp;{{ course_by_venue.name }}</h2>
+{% for post in course_by_venue.items %}
+{% include archive-single-teaching.html %}
+{% endfor %}
   {% endfor %}
-  </ul>
+</ul>
 {% endfor %}

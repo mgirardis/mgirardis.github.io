@@ -3,6 +3,8 @@ title: "Synaptic plasticity and learning"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/plasticity-LASCON-USP
+lang: en
+translation_url: /pt/teaching/plasticity-LASCON-USP
 venue: "Latin American School on Computational Neuroscience - LASCON, Universidade de São Paulo (USP)"
 date: 2020-01-01
 taughtat: "2020"

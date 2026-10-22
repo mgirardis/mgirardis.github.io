@@ -33,8 +33,18 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        <p>{{ page.type }}<br />
-          {% if page.taughtat and page.taughtat.size > 0 %}<i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Taught at: {{ page.taughtat }} <br /> {% endif %}
+        {% assign teaching_type_label = page.type %}
+        {% assign taught_at_label = "Taught at" %}
+        {% if page.lang == "pt-BR" %}
+          {% assign taught_at_label = "Ministrado em" %}
+          {% if page.type == "Undergraduate course" %}
+            {% assign teaching_type_label = "Disciplina de graduação" %}
+          {% elsif page.type == "Graduate course" %}
+            {% assign teaching_type_label = "Disciplina de pós-graduação" %}
+          {% endif %}
+        {% endif %}
+        <p>{{ teaching_type_label }}<br />
+          {% if page.taughtat and page.taughtat.size > 0 %}<i class="fa fa-fw fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ taught_at_label }}: {{ page.taughtat }} <br /> {% endif %}
           <i class="fa fa-fw fa-university" aria-hidden="true"></i>&nbsp;&nbsp;<i>{{ page.venue }}</i></p>
          
         </header>
@@ -42,7 +52,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{% if page.lang == "pt-BR" %}Acessar material{% else %}{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}{% endif %}</a></div>{% endif %}
       </section>
 
       <footer class="page__meta">

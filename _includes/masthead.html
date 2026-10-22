@@ -4,15 +4,17 @@
   {% assign navigation = site.data.navigation.main_pt %}
   {% assign home_url = "/pt/" %}
   {% assign language_url = page.translation_url | default: "/" %}
-  {% assign language_code = "en" %}
-  {% assign language_flag = "🇬🇧" %}
+  {% assign language_tag = "en" %}
+  {% assign language_code = "EN" %}
+  {% assign language_flag = "https://flagcdn.com/w40/gb.png" %}
   {% assign language_label = "Switch language to English" %}
 {% else %}
   {% assign navigation = site.data.navigation.main %}
   {% assign home_url = "/" %}
   {% assign language_url = page.translation_url | default: "/pt/" %}
-  {% assign language_code = "pt-BR" %}
-  {% assign language_flag = "🇧🇷" %}
+  {% assign language_tag = "pt-BR" %}
+  {% assign language_code = "PT" %}
+  {% assign language_flag = "https://flagcdn.com/w40/br.png" %}
   {% assign language_label = "Mudar idioma para português" %}
 {% endif %}
 
@@ -34,7 +36,7 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      <a class="language-switcher" href="{{ base_path }}{{ language_url }}" lang="{{ language_code }}" title="{{ language_label }}" aria-label="{{ language_label }}"><span aria-hidden="true">{{ language_flag }}</span></a>
+      <a class="language-switcher" href="{{ base_path }}{{ language_url }}" lang="{{ language_tag }}" title="{{ language_label }}" aria-label="{{ language_label }}"><img src="{{ language_flag }}" width="24" height="18" alt=""><span>{{ language_code }}</span></a>
     </div>
   </div>
 </div>

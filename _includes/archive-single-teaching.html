@@ -11,6 +11,18 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% assign taught_at_label = "Taught at" %}
+{% assign course_type_label = post.type %}
+{% assign read_more_label = "Read more" %}
+{% if page.lang == "pt-BR" %}
+  {% assign taught_at_label = "Ministrado em" %}
+  {% assign read_more_label = "Leia mais" %}
+  {% if post.type == "Undergraduate course" %}
+    {% assign course_type_label = "Disciplina de graduação" %}
+  {% elsif post.type == "Graduate course" %}
+    {% assign course_type_label = "Disciplina de pós-graduação" %}
+  {% endif %}
+{% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -38,7 +50,7 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    <p style="font-size: 10pt;">{% if post.taughtat and post.taughtat.size > 0 %}Taught at: {{ post.taughtat }} -- {% endif %}{{ post.type }}, <i>{{ post.venue }}</i></p>
+    <p style="font-size: 10pt;">{% if post.taughtat and post.taughtat.size > 0 %}{{ taught_at_label }}: {{ post.taughtat }} -- {% endif %}{{ course_type_label }}, <i>{{ post.venue }}</i></p>
 
 
     {% if post.excerpt and site.read_more != 'enabled' %}
@@ -49,7 +61,7 @@
     <p class="archive__item-excerpt" itemprop="description" >
       <p style="font-size: 10pt;">
         {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
+        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> {{ read_more_label }}</a>
         </strong>
       </p>
     </p>

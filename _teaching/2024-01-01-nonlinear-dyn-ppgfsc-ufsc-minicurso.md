@@ -3,6 +3,8 @@ title: "Nonlinear dynamics in Physics and Biology"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/minicurso-ppgfsc-ufsc-2024
+lang: en
+translation_url: /pt/teaching/minicurso-ppgfsc-ufsc-2024
 venue: "Universidade Federal de Santa Catarina (UFSC)"
 date: 2024-03-02
 taughtat: "2024"
