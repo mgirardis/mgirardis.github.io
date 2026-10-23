@@ -23,22 +23,31 @@ jobs:
           git -C repo.git push --mirror \
             "https://x-access-token:${TOKEN}@github.com/neuro-physics/neuro-physics.github.io.git"
 
-      - name: Set organization domain
+      #- name: Set organization domain
+      #  env:
+      #    TOKEN: ${{ secrets.MIRROR_TOKEN }}
+      #  run: |
+      #    git clone \
+      #      https://x-access-token:${TOKEN}@github.com/neuro-physics/neuro-physics.github.io.git \
+      #      site
+      #
+      #    cd site
+      #    git config user.name "github-actions[bot]"
+      #    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #
+      #    echo "neurofisica.ufsc.br" > CNAME ######################################## this must be changed to the domain of the portuguese site, e.g. labneurofisica.com.br or whatever 
+      #    git add CNAME
+      #
+      #    if ! git diff --cached --quiet; then
+      #      git commit -m "Set organization custom domain"
+      #      git push origin HEAD
+      #    fi
+      - name: Trigger organization deployment
         env:
           TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
-          git clone \
-            https://x-access-token:${TOKEN}@github.com/neuro-physics/neuro-physics.github.io.git \
-            site
-
-          cd site
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          echo "neurofisica.ufsc.br" > CNAME
-          git add CNAME
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Set organization custom domain"
-            git push origin HEAD
-          fi
+          curl --fail-with-body -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $TOKEN" \
+            https://api.github.com/repos/neuro-physics/neuro-physics.github.io/actions/workflows/jekyll.yml/dispatches \
+            -d '{"ref":"main"}'
