@@ -1,0 +1,44 @@
+
+name: Mirror to neuro-physics
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror repository
+        env:
+          TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: |
+          git clone --mirror \
+            https://github.com/mgirardis/mgirardis.github.io.git \
+            repo.git
+
+          git -C repo.git push --mirror \
+            "https://x-access-token:${TOKEN}@github.com/neuro-physics/mgirardis.github.io.git"
+
+      - name: Set organization domain
+        env:
+          TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: |
+          git clone \
+            https://x-access-token:${TOKEN}@github.com/neuro-physics/mgirardis.github.io.git \
+            site
+
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "neurofisica.ufsc.br" > CNAME
+          git add CNAME
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Set organization custom domain"
+            git push origin HEAD
+          fi
