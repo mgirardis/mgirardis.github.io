@@ -21,14 +21,14 @@ jobs:
             repo.git
 
           git -C repo.git push --mirror \
-            "https://x-access-token:${TOKEN}@github.com/neuro-physics/mgirardis.github.io.git"
+            "https://x-access-token:${TOKEN}@github.com/neuro-physics/neuro-physics.github.io.git"
 
       - name: Set organization domain
         env:
           TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
           git clone \
-            https://x-access-token:${TOKEN}@github.com/neuro-physics/mgirardis.github.io.git \
+            https://x-access-token:${TOKEN}@github.com/neuro-physics/neuro-physics.github.io.git \
             site
 
           cd site
